@@ -1,14 +1,4 @@
 
-const pi = Math.PI, tan = Math.tan, log = Math.log;
-const rpd = pi / 360, exp = Math.exp, atan = Math.atan;
-
-const minLat = -60, maxLat = 80;
-const mercYMin = log(tan(pi / 4 + (minLat * rpd))) / pi;
-const mercYMax = log(tan(pi / 4 + (maxLat * rpd))) / pi;
-const mercY0 = log(tan(pi / 4 + (0 * rpd))) / pi; // Mercator Y at equator
-const maxMercYDelta = Math.max(mercY0 - mercYMin, mercYMax - mercY0);
-const baseWidth = 600, baseHeight = 600;
-const mercScale = baseHeight / (2 * maxMercYDelta); // Scale to fit entire range
 
 function project(lat, lon) {
     const mercY = log(tan(pi / 4 + (lat * rpd))) / pi;
@@ -24,4 +14,4 @@ function unproject(x, y) {
     return { lat: lat, lon: (x / baseWidth) * 360 - 180 };
 }
 
-export { project, unproject };
+
