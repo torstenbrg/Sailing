@@ -13,7 +13,7 @@ function centerGrid() {
     const panX = (rect.width - baseWidth) / 2;
     const panY = (rect.height - baseHeight) / 2;
 
-   //console.log(`Initial values: panX=${panX}, panY=${panY}, scale=${scale}`);
+   console.log(`Initial values: panX=${panX}, panY=${panY}, scale=${scale}`);
 
     contentGroup.setAttribute('transform', `translate(${panX} ${panY})`);
 }
