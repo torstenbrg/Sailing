@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <!-- https://torstenbrg.github.io/Sailing/ -->
+
 <head>
     <meta charset="UTF-8">
     <title>Mercator Grid with Pan and Zoom</title>
@@ -71,15 +72,11 @@
             line.setAttribute('stroke-width', 0.5);
             contentGroup.appendChild(line);
         }
-        function updateView() {
-            contentGroup.setAttribute('transform',
-                `translate(${panX} ${panY}) scale(${scale})`);
-        }
         function centerGrid() {
             const rect = svg.getBoundingClientRect();
             panX = (rect.width / scale - baseWidth) / 2;
             panY = (rect.height / scale - baseHeight) / 2;
-            updateView();
+            contentGroup.setAttribute('transform', `translate(${panX} ${panY}) scale(${scale})`);
         }
         svg.addEventListener('wheel', e => {
             e.preventDefault();
@@ -91,7 +88,7 @@
             panX -= ((mouseX - panX) * (newScale - scale)) / scale;
             panY -= ((mouseY - panY) * (newScale - scale)) / scale;
             scale = newScale;
-            updateView();
+            contentGroup.setAttribute('transform', `translate(${panX} ${panY}) scale(${scale})`);
         });
         svg.addEventListener('mousedown', e => {
             isDragging = true;
