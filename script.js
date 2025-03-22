@@ -102,11 +102,9 @@ svg.addEventListener('mousemove', e => {
         const rect = svg.getBoundingClientRect();
         const x = (e.clientX - panX) / scale;
         const y = (e.clientY - panY) / scale;
-
         const element = document.elementFromPoint(e.clientX, e.clientY);
-        let country = element.getAttribute('id');
-        country = country == 'mainSvg' ? '' : `\n${country}`
-
+        let id = element.getAttribute('id');
+        let country = (id == 'mainSvg') ? 'water' : `${id}`
         const degrees = unproject(x, y);
         const lonOK = degrees.lon >= lonW && degrees.lon <= lonE
         const latOK = degrees.lat >= latS && degrees.lat <= latN
@@ -115,7 +113,7 @@ svg.addEventListener('mousemove', e => {
             const lonString = degrees.lon.toFixed(dec).toString();
             const latPadded = latString.padStart(5 + dec);
             const lonPadded = lonString.padStart(5 + dec);
-            tooltip.textContent = `Lat: ${latPadded}\nLon: ${lonPadded}${country}`;
+            tooltip.textContent = `${country}\nLat: ${latPadded}\nLon: ${lonPadded}`;
             tooltip.style.visibility = 'visible';
         } else {
             tooltip.style.visibility = 'hidden';
