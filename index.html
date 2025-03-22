@@ -10,13 +10,40 @@
 
 <body>
     <svg id="mainSvg">
-        <g id="contentGroup"></g>
-        <line id="lineTemplate" />
+        <g id="contentGroup">
+            <line id="lineTemplate" />
+            <rect id="rectTemplate" />
+            <path id="pathTemplate" d="" />
+        </g>
     </svg>
-    <div id="tooltip" />
-    <script src="./script.js" />
+    <div id="tooltip"></div>
+    <div id="loader" class="loader">
+        <div class="spinner"></div>
+      </div>
 
-
+    <script src="./paths/all_countries.js"></script>
+    <script>
+        const countryData = {};
+        function loadAllCountries() {
+            const countries = allCountries.split('|');
+            // Create an array of fetch promises
+            const fetchPromises = countries.map(country => {
+                let url = `./paths/${country}.txt`;
+                return fetch(url)
+                    .then(response => response.text())
+                    .then(data => {
+                        countryData[country] = data; // Populate countryPaths
+                    });
+            });
+            // Wait for all fetch requests to complete and the load main script
+            Promise.all(fetchPromises).then(() => {
+                const script = document.createElement('script');
+                script.src = './script.js';
+                document.head.appendChild(script);
+            });
+        }
+        loadAllCountries();
+    </script>
 </body>
 
 </html>
