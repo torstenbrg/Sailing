@@ -7,7 +7,6 @@ body {
     overflow: hidden;
     font-family: Consolas, monospace
 }
-
 svg {
     /* transform: scale(1, -1); */
     transform-origin: center;
@@ -16,41 +15,28 @@ svg {
     cursor: grab;
     background-color: lightcyan;
 }
-
 svg:active {
     cursor: grabbing;
 }
-
 path {
     vector-effect: non-scaling-stroke;
     fill: lightgoldenrodyellow;
     stroke: black;
     stroke-width: 0.3;
 }
-
 line {
     vector-effect: non-scaling-stroke;
     stroke: lightgray;
     stroke-width: 0.3;
 }
-
 line.zero {
     stroke: #000;
 }
-
 #rectT {
     vector-effect: non-scaling-stroke;
     fill: none;
     stroke: black;
 }
-
-/* line:nth-child(10n) {
-    stroke: #c0c0c0;
-    stroke-width: 0.5;
-}
-    earth circumference = 40,075 km = 21,639 nm
- */
-
 #contentGroup {
     transition: transform 0.05s linear;
 }
@@ -104,3 +90,11 @@ line.zero {
         transform: rotate(360deg);
     }
 }
+
+/* line:nth-child(10n) {
+    stroke: #c0c0c0;
+    stroke-width: 0.5;
+}
+    earth circumference = 40,075 km = 21,639 nm
+ */
+
