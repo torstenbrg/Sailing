@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <!-- https://torstenbrg.github.io/Sailing/ -->
-
 <head>
     <meta charset="UTF-8">
     <title>Welcome Sailor!</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
     <svg id="mainSvg">
         <g id="contentGroup">
@@ -32,7 +30,7 @@
                 return fetch(url)
                     .then(response => response.text())
                     .then(data => {
-                        countryData[country] = data; // Populate countryPaths
+                        countryData[country] = data; 
                     });
             });
             // Wait for all fetch requests to complete and the load main script

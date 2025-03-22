@@ -25,6 +25,7 @@ path {
     vector-effect: non-scaling-stroke;
     fill: lightgoldenrodyellow;
     stroke: black;
+    stroke-width: 0.3;
 }
 
 line {

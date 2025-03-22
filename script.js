@@ -102,6 +102,10 @@ svg.addEventListener('mousemove', e => {
         const rect = svg.getBoundingClientRect();
         const x = (e.clientX - panX) / scale;
         const y = (e.clientY - panY) / scale;
+
+        const element = document.elementFromPoint(e.clientX, e.clientY);
+        const country = element.getAttribute('id');
+
         const degrees = unproject(x, y);
         const lonOK = degrees.lon >= lonW && degrees.lon <= lonE
         const latOK = degrees.lat >= latS && degrees.lat <= latN
@@ -110,7 +114,7 @@ svg.addEventListener('mousemove', e => {
             const lonString = degrees.lon.toFixed(dec).toString();
             const latPadded = latString.padStart(5 + dec);
             const lonPadded = lonString.padStart(5 + dec);
-            tooltip.textContent = `Lat: ${latPadded}\nLon: ${lonPadded}`;
+            tooltip.textContent = `Lat: ${latPadded}\nLon: ${lonPadded}\n${country}`;
             tooltip.style.visibility = 'visible';
         } else {
             tooltip.style.visibility = 'hidden';
@@ -177,8 +181,11 @@ function loadContryPaths() {
         const d = processSvgPath(countryData[country], project);
         path.setAttribute('id', country)
         path.setAttribute('d', d);
+
+        
     });
 }
+
 function showTheMap() {
     svg.style.display = "none"
     contentGroup.innerHTML = '';
