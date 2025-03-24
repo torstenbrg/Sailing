@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <!-- https://torstenbrg.github.io/Sailing/ -->
+
 <head>
     <meta charset="UTF-8">
     <title>Welcome Sailor!</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <svg id="mainSvg">
         <g id="contentGroup">
@@ -17,24 +19,25 @@
     <div id="tooltip"></div>
     <div id="loader" class="loader">
         <div class="spinner"></div>
-      </div>
+    </div>
 
     <script src="./paths/all_countries.js"></script>
     <script>
         const countryData = {};
+        let countryNames = {};
         function loadAllCountries() {
-            const countries = allCountries.split('|');
-            // Create an array of fetch promises
-            const fetchPromises = countries.map(country => {
+            let countries = allCountries.split('|')
+            let names = longNames.split('|');
+            countryNames = Object.fromEntries(
+                countries.map((country, index) => [country, names[index]])
+            );
+            const fetchPromises = countries.map(country => {// Create an array of fetch promises
                 let url = `./paths/${country}.txt`;
                 return fetch(url)
                     .then(response => response.text())
-                    .then(data => {
-                        countryData[country] = data; 
-                    });
+                    .then(data => { countryData[country] = data; });
             });
-            // Wait for all fetch requests to complete and the load main script
-            Promise.all(fetchPromises).then(() => {
+            Promise.all(fetchPromises).then(() => { // Wait for all fetch requests to complete and the load main script
                 const script = document.createElement('script');
                 script.src = './script.js';
                 document.head.appendChild(script);

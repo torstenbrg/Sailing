@@ -78,8 +78,7 @@ svg.addEventListener('wheel', e => {
     const mouseX = e.clientX;
     const mouseY = e.clientY;
     const zoomFactor = e.deltaY < 0 ? 1.05 : 0.95;
-    console.log(`deltaY=${e.deltaY}`)
-    const newScale = Math.max(0.1, Math.min(scale * zoomFactor, 60));
+    const newScale = Math.max(0.1, Math.min(scale * zoomFactor, 100));
     panX -= ((mouseX - panX) * (newScale - scale)) / scale;
     panY -= ((mouseY - panY) * (newScale - scale)) / scale;
     scale = newScale;
@@ -104,7 +103,7 @@ svg.addEventListener('mousemove', e => {
         const y = (e.clientY - panY) / scale;
         const element = document.elementFromPoint(e.clientX, e.clientY);
         let id = element.getAttribute('id');
-        let country = (id == 'mainSvg') ? 'water' : `${id}`
+        let name = (id in countryNames) ? countryNames[id] : 'Water'
         const degrees = unproject(x, y);
         const lonOK = degrees.lon >= lonW && degrees.lon <= lonE
         const latOK = degrees.lat >= latS && degrees.lat <= latN
@@ -113,7 +112,7 @@ svg.addEventListener('mousemove', e => {
             const lonString = degrees.lon.toFixed(dec).toString();
             const latPadded = latString.padStart(5 + dec);
             const lonPadded = lonString.padStart(5 + dec);
-            tooltip.textContent = `${country}\nLat: ${latPadded}\nLon: ${lonPadded}`;
+            tooltip.textContent = `${name}\nLon: ${lonPadded}\nLat: ${latPadded}`;
             tooltip.style.visibility = 'visible';
         } else {
             tooltip.style.visibility = 'hidden';
@@ -139,7 +138,7 @@ function resetDrag() {
 }
 function prepareGrid() {
     w = window.innerWidth, h = window.innerHeight;
-    const Δlat = latN - latS, Δlon = lonE - lonW;
+    const Δlon = lonE - lonW; //Δlat = latN - latS, 
     fx = 0.95 * w / Δlon; // at least 2.5% margin left and right
     fy = fx / px0; // lets fx define fy with px0
     coordsNW = project(lonW, latN), coordsSE = project(lonE, latS);
@@ -180,33 +179,27 @@ function loadContryPaths() {
         const d = processSvgPath(countryData[country], project);
         path.setAttribute('id', country)
         path.setAttribute('d', d);
-
-        
     });
 }
-
-function showTheMap() {
-    svg.style.display = "none"
-    contentGroup.innerHTML = '';
-    prepareGrid();
-    loadContryPaths();
-    generateGrid();
-    centerGrid();
-    showVariables();
-}
-async function performCalculations() {
+async function showTheMap() {
     loader.style.display = 'flex';
     void loader.offsetHeight; // trick to ensure DOM cahnges are applied immediately
     await new Promise(resolve => {
         requestAnimationFrame(() => {
-            showTheMap();
+            svg.style.display = "none"
+            contentGroup.innerHTML = '';
+            prepareGrid();
+            loadContryPaths();
+            generateGrid();
+            centerGrid();
+            showVariables();
             setTimeout(resolve, 10);
         });
     });
     loader.style.display = 'none';
     svg.style.display = "block";
 }
-performCalculations();
+showTheMap();
 
 
 //await new Promise(r => setTimeout(r, 10));
