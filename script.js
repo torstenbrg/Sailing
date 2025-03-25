@@ -2,7 +2,9 @@ const svg = document.getElementById('mainSvg');
 const lineT = document.getElementById('lineTemplate');
 const rectT = document.getElementById('rectTemplate');
 const pathT = document.getElementById('pathTemplate');
+const circT = document.getElementById('circTemplate');
 const group = document.getElementById('contentGroup');
+const portGroup = document.getElementById('portGroup');
 const tooltip = document.getElementById("tooltip");
 const loader = document.getElementById("loader");
 
@@ -64,6 +66,11 @@ function createLine(x1, y1, x2, y2) {
 }
 function updatePan() {
     group.setAttribute('transform', `translate(${panX} ${panY}) scale(${scale})`);
+    portGroup.setAttribute('transform', `translate(${panX} ${panY}) scale(${scale})`);
+    document.querySelectorAll('#portGroup circle').forEach(circle => {
+        let f = (scale > 3) ? 3 / scale: 1 / scale 
+        circle.setAttribute("r", f);
+    });
 }
 function centerGrid() {
     if (!isResizing) {
@@ -121,21 +128,17 @@ svg.addEventListener('mousemove', e => {
 });
 function resizeWindow() {
     isResizing = true;
-    prepareGrid();
+    showTheMap();
     isResizing = false;
 }
 let resizeTimeout;
 window.addEventListener('resize', () => {
     clearTimeout(resizeTimeout);
-    resizeTimeout = setTimeout(prepareGrid, 100);
+    resizeTimeout = setTimeout(resizeWindow(), 100);
 });
-svg.addEventListener('mouseup', () => resetDrag());
-svg.addEventListener('mouseleave', () => resetDrag());
+svg.addEventListener('mouseup', () => isDragging = false);
+svg.addEventListener('mouseleave', () => isDragging = false);
 //window.addEventListener('click', () => debug());
-function resetDrag() {
-    isDragging = false;
-    svg.style.cursor = 'grab';
-}
 function prepareGrid() {
     w = window.innerWidth, h = window.innerHeight;
     const Δlon = lonE - lonW; //Δlat = latN - latS, 
@@ -181,16 +184,56 @@ function loadContryPaths() {
         path.setAttribute('d', d);
     });
 }
+async function loadPorts() {
+    const response = await fetch('./ports.txt');
+    const text = await response.text();
+    const lines = text.split('\n');
+    return lines.map(line => {
+        const [name, longitude, latitude, website] = line.split(',');
+        return { name, longitude: parseFloat(longitude), latitude: parseFloat(latitude), website };
+    });
+}
+// function loadPorts() {
+//     return fetch('./ports.txt')
+//         .then(response => response.text())
+//         .then(text => 
+//             text.split('\n').map(line => {
+//                 const [name, longitude, latitude, website] = line.split(',');
+//                 return { name, longitude: +longitude, latitude: +latitude, website };
+//             })
+//         );
+// }
+
+function createPortMarkers(ports) {
+    ports.forEach(port => {
+        const { x, y } = project(port.longitude, port.latitude);
+        if (isNaN(x) || isNaN(y)) {
+            console.log(`Invalid coordinates for port ${port.name}`, { x, y });
+            return;
+        }
+        const pc = circT.cloneNode();
+        pc.removeAttribute('id')
+        pc.setAttribute("cx", x);
+        pc.setAttribute("cy", y);
+        pc.setAttribute("r", "4");
+        pc.classList.add("port");
+        pc.setAttribute("data-name", port.name);
+        pc.setAttribute("web-site", port.website);
+        portGroup.appendChild(pc);
+    });
+}
 async function showTheMap() {
     loader.style.display = 'flex';
     void loader.offsetHeight; // trick to ensure DOM cahnges are applied immediately
     await new Promise(resolve => {
-        requestAnimationFrame(() => {
+        requestAnimationFrame(async () => {
             svg.style.display = "none"
             contentGroup.innerHTML = '';
             prepareGrid();
             loadContryPaths();
             generateGrid();
+            const ports = await loadPorts();
+            createPortMarkers(ports);
             centerGrid();
             showVariables();
             setTimeout(resolve, 10);

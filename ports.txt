@@ -1,0 +1,1081 @@
+Sint Nicolaas,-69.92355713,12.4375,www.rocargo.com/SanNicolas.html
+Campana,-58.95141343,-34.15333333,www.consejoportuario.com.ar
+Zarate,-59.004947,-34.09888889,www.consejoportuario.com.ar
+Puerto Belgrano/Bahia Blanca,-62.10088339,-38.89444444,
+Puerto Galvan/Bahia Blanca,-62.30053004,-38.78305556,
+Ingeniero White/Bahia Blanca,-62.25989399,-38.79194444,
+Saint John's,-61.85229682,17.12277778,www.ab.gov.ag
+Fremantle,115.7381037,-32.0475,www.fremantleports.com.au
+Botany Bay,151.2095406,-33.97305556,www.sydneyports.com.au
+Rockhampton,151.2842167,-23.85111111,www.gpcl.com.au
+Oostende (Ostend),2.93368669,51.23,www.portofoostende.be
+Zeebrugge,3.20459364,51.33638889,www.zeebruggeport.be
+Burgas,27.45830389,42.47,www.port-burgas.com
+Mina Sulman Port,50.60759717,26.19861111,www.bahrainports.gov.bh
+Sitrah,50.65883392,26.15861111,www.bahrainports.gov.bh
+Saint George,-64.67302709,32.37944444,
+Mucuripe,-38.47320377,-3.7075,www.docasdoceara.com.br
+Niteroi,-43.1246172,-22.87916667,www.portosrio.gov.br
+Sao Francisco do Sul,-48.63545347,-26.23805556,www.apsfs.sc.gov.br
+Chatham,-65.46772674,47.03444444,
+Clarenville,-53.95689046,48.16333333,
+Comox,-124.9244405,49.67083333,
+Esquimalt,-123.4343934,48.43638889,
+Grand Bank,-55.75106007,47.10027778,
+North Sydney,-60.2393404,46.20888889,
+Caraquet,-64.9246172,47.79638889,
+Chicoutimi,-71.05265018,48.43,
+Corner Brook,-57.93633687,48.96055556,www.cornerbrookport.com
+Digby,-65.75229682,44.62527778,www.portofdigby.ns.ca
+Harbour Grace,-53.21702002,47.69027778,
+Pictou,-62.70441696,45.67472222,www.pictoumarineterminals.com
+Shelburne,-65.31772674,43.74972222,
+Sorel,-73.11808009,46.04111111,
+Springdale,-56.05989399,49.49972222,
+Saint-John's,-52.69234393,47.5625,www.sjpa.com
+Coronel,-73.15335689,-37.02833333,
+Lota,-73.15848057,-37.09805556,
+Talcahuano,-73.10229682,-36.70527778,www.puertotalcahuano.cl
+San Antonio,-71.61808009,-33.5875,www.sanantonioport.com
+Haimen,121.4418139,28.69027778,
+Qinhuangdao,119.5859835,39.90666667,
+Yantian,114.26702,22.57416667,www.yantian-port.com
+Yingkou,122.2351001,40.69583333,
+Moin,-83.07408716,10.00555556,www.japdeva.go.cr
+Banes,-75.70335689,20.91916667,
+Caibarien,-79.46931684,22.52916667,
+Isabela de Sagua,-80.00759717,22.94027778,
+Nuevitas,-77.23951708,21.56305556,
+Famagusta,33.94004711,35.12777778,
+Cuxhaven,8.707243816,53.86472222,www.cuxport.de
+Eckernforde,9.835806832,54.47361111,www.stadtwerke-eckernfoerde.de
+Nordenham,8.489517079,53.4875,
+Papenburg,7.368963486,53.09638889,
+Wismar,11.43916372,53.90638889,www.hafen-wismar.de
+Nyborg,10.80689046,55.29888889,www.adp-as.com
+Helsingor,12.61702002,56.03444444,www.helsingoerhavn.dk
+Odense,10.52497055,55.46638889,
+Nyborg,10.78810365,55.30694444,www.nyborg.dk/Engelsk/Tourism/NyborgsHarbours
+Frederikshavn,10.54146054,57.43777778,www.frederikshavnhavn.dk
+Haderslev,9.504416961,55.25111111,
+Horsens,9.868433451,55.85416667,www.horsenshavn.dk
+Kalundborg,11.08598351,55.66944444,www.portofkalundborg.dk
+Kolding,9.493404005,55.49277778,www.koldingport.dk
+Nakskov,11.12108363,54.83222222,
+Nykobing Falster,11.85706714,54.77083333,www.guldborgsundhavne.dk
+Randers,10.05265018,56.46027778,www.randershavn.dk
+Rudkobing,10.704947,54.93972222,www.langelandkommune.dk
+Svendborg,10.61702002,55.05861111,
+Vejle,9.551943463,55.70555556,www.vejleport.dk
+Skagen,10.58881037,57.71861111,www.skagenhavn.dk
+Puerto Plata,-70.70053004,19.80361111,www.apordom.gov.do
+Rio Haina,-70.01808009,18.42027778,www.apordom.gov.do
+Mostaganem,0.071260306,35.93444444,
+Damietta,31.75918728,31.46666667,www.dam-port.com
+Safaga,33.94128386,26.74222222,www.mts.gov.eg
+Algeciras,-5.400353357,36.14777778,www.apba.es
+Aviles,-5.920023557,43.57861111,www.avilesport.com
+Ferrol,-8.250883392,43.47972222,www.apfsc.com
+Huelva,-6.935806832,37.19277778,www.puertohuelva.com
+Pasajes,-1.918786808,43.32333333,www.puertopasajes.net
+Rota,-6.334570082,36.61944444,
+Cadiz,-6.258833922,36.52,www.puertocadiz.com
+Kotka,26.9418139,60.46111111,www.portofkotka.fi
+Veitsiluoto,24.61666667,65.68305556,
+Arcachon,-1.142343934,44.65916667,www.arcachon.com
+Deauville,0.073380448,49.36583333,
+Fecamp,0.369493522,49.76194444,www.fecamp.cci.fr
+La Pallice,-1.223910483,46.15722222,www.larochelle.port.fr
+Saint-Malo,-2.022850412,48.64444444,www.saint-malo.cci.fr
+Sete,3.71024735,43.40472222,www.sete.port.fr
+Greenock,-4.756713781,55.95472222,www.clydeport.co.uk
+Poole,-1.986513545,50.71444444,www.phc.co.uk
+Falmouth,-5.053533569,50.15277778,www.falmouthport.co.uk
+Leith,-3.171790342,55.9825,www.forthports.co.uk
+Montrose,-2.467903416,56.70444444,www.montroseport.co.uk
+Newport,-2.984746761,51.55888889,www.abports.co.uk/custinfo/ports/newport.htm
+Sunderland,-1.356183746,54.90694444,www.portofsunderland.org.uk
+Teesport,-1.157067138,54.60805556,www.pdports.co.uk
+Poti,41.65282686,42.155,www.potiseaport.com
+Piraeus,23.6565371,37.93722222,
+Piraeus,23.63368669,37.94111111,www.olp.gr
+Piraeus,23.64305065,37.93444444,www.medmarinas.com
+Saint George's,-61.75053004,12.04722222,www.grenadacruiseport.com
+Cayenne,-52.27196702,4.853055556,www.guyane.cci.fr
+Bakar,14.54075383,45.29972222,
+Rovinj,13.63492344,45.08055556,
+Sibenik,15.89163722,43.72638889,www.portauthority-sibenik.hr
+Gonaives,-72.70371025,19.44833333,www.apn.gouv.ht
+Sorong,131.2425206,-0.876944444,
+Alleppey,76.31042403,9.491944444,
+Kakinada,82.2746172,16.97777778,www.kakinadaseaports.in
+Tuticorin,78.18704358,8.758333333,tuticorinport.gov.in
+Sligo,-8.471260306,54.27166667,
+Licata,13.93828033,37.09027778,
+Alghero,8.30795053,40.56277778,
+Bagnoli,14.16007067,40.80333333,
+Barletta,16.28775029,41.32555556,
+Brindisi,17.95600707,40.64638889,www.porto.br.it
+Crotone,17.12338045,39.08611111,
+Gallipoli,17.97567727,40.05583333,
+Imperia,8.026914016,43.88277778,
+La Maddalena,9.409363958,41.21333333,
+La Spezia,9.850353357,44.08722222,www.portolaspezia.it
+Marsala,12.43545347,37.78972222,
+Messina,15.55918728,38.20027778,
+Molfetta,16.58775029,41.20833333,
+Monfalcone,13.55265018,45.78861111,www.porto.monfalcone.gorizia.it
+Monopoli,17.30035336,40.95611111,
+Pesaro,12.9024735,43.92083333,
+Porto Torres,8.392167256,40.84361111,
+Ravenna,12.25035336,44.46222222,www.port.ravenna.it
+Siracusa,15.28757362,37.06611111,
+Taranto,17.18898704,40.48805556,www.port.taranto.it
+Torre Annunziata,14.44287397,40.75,
+Omura,129.9503534,32.90166667,www.city.omura.nagasaki.jp
+Amagasaki,135.3833333,34.69138889,
+Fushiki,137.1084806,36.77583333,
+Imabari,133.0061837,34.06805556,
+Iwakuni,132.2352768,34.17694444,
+Kainan,135.188457,34.15305556,
+Kanazawa,136.6065371,36.61694444,www.pref.ishikawa.jp
+Kawasaki,139.7437574,35.50638889,www.city.kawasaki.jp/58/58yuuti/home/etop.html
+Kokura,130.8735571,33.90833333,www.kitaqport.or.jp
+Maizuru,135.3852768,35.48166667,www.port.maizuru.kyoto.jp
+Matsusaka,136.5533569,34.60805556,www.info.city.tsu.mie.jp
+Miyazu,135.193404,35.54333333,
+Muroran,140.9540636,42.33583333,
+Niigata,139.1247939,37.955,www.pref.niigata.lg.jp/kowanshinko/1208883684365.html
+Saganoseki,131.8693168,33.25138889,
+Sasebo,129.7077739,33.15694444,www.city.sasebo.nagasaki.jp
+Shimizu,138.509894,35.01444444,www.portofshimizu.com
+Shimotsu,135.1333333,34.11638889,
+Wakayama,135.1270907,34.22305556,
+Yokosuka,139.654417,35.30444444,www.city.yokosuka.kanagawa.jp/minato
+Galle,80.22497055,6.033333333,www.slpa.lk
+Ventspils,21.53704358,57.40305556,www.portofventspils.lv
+Frontera,-92.65212014,18.53027778,
+Minatitlan,-94.53457008,17.97583333,
+Pajaritos,-94.40053004,18.1275,
+Santa Rosalia,-112.2584806,27.33916667,www.bajaport.com
+Progreso,-89.67055359,21.31361111,www.puertosyucatan.com
+Tuxpan,-97.37055359,20.94055556,www.puerto-de-tuxpan.com.mx
+Kemaman,103.4591873,4.249444444,www.portsworld.com/Ports/kemamanport.htm
+Den Helder,4.78368669,52.95805556,www.havendenhelder.nl
+Dordrecht,4.651413428,51.80583333,
+Delfzijl,6.955477032,53.32055556,www.groningen-seaports.com
+Arendal,8.757420495,58.45416667,
+Drammen,10.22497055,59.73666667,www.drammenhavn.no
+Halden,11.37532391,59.11805556,
+Harstad,16.54163722,68.78916667,
+Larvik,10.02550059,59.04527778,www.larvikhavn.vf.no
+Moss,10.65282686,59.43222222,www.moss-havn.no
+Sandefjord,10.22497055,59.12361111,
+Tonsberg,10.404947,59.265,
+Lyttelton,172.7102473,-43.60611111,www.lpc.co.nz
+Qalhat,59.42055359,22.65666667,
+Sohar,56.73792697,24.37833333,portofsohar.com
+Balboa,-79.56878681,8.955555556,www.ppc.com.pa
+Cristobal,-79.90477032,9.350277778,www.ppc.com.pa
+Pedregal,-82.43457008,8.365,www.cocatram.org.ni/puertosca/pto_pedregal_panama.html
+Callao,-77.1418139,-12.04527778,www.enapu.com.pe
+Matarani,-72.10424028,-16.99777778,www.ultramarnetwork.com/TextosPeru/Marc-024.html
+Swinoujscie,14.26861013,53.905,www.phs.com.pl
+Leixoes,-8.692873969,41.185,www.apdl.pt
+Setubal,-8.821436985,38.48972222,www.portodesetubal.pt
+Aveiro,-8.7196702,40.64361111,www.portodeaveiro.pt
+Viana do Castelo,-8.823027091,41.68638889,www.ipnorte.pt
+Galati,28.08386337,45.44166667,apdm.galati.ro
+Nakhodka,132.9075972,42.80472222,www.port-livadia.ru
+Kandalaksha,32.404947,67.135,
+Kholmsk,142.0400471,47.05055556,
+Korsakov,142.7584806,46.62666667,
+Kronshtadt,29.76737338,59.98694444,
+Nakhodka,132.8861602,42.8,www.ncsp.ru
+Novorossiysk,37.80441696,44.715,www.nle.ru
+Tuapse,39.06666667,44.09194444,www.tuapseport.ru
+Jubail,49.67090695,27.02861111,www.ports.gov.sa
+Jubail,49.67302709,27.08777778,www.ports.gov.sa
+Ras al Khafji,48.52249706,28.415,
+Falkenberg,12.47638398,56.88944444,www.falkenbergs-terminal.se
+Ahus,14.30547703,55.92555556,www.ahushamn.se
+Harnosand,17.93881037,62.64083333,www.harnosand.se
+Hoganas,12.54146054,56.19861111,
+Karlshamn,14.85830389,56.1625,www.karlshamnshamn.se
+Karlskrona,15.58598351,56.16,www.karlskrona.se/hamn
+Nynashamn,17.95812721,58.91333333,www.stoports.com
+Oskarshamn,16.47073027,57.265,www.port.oskarshamn.se
+Oxelosund,17.10795053,58.66166667,www.oxhamn.se
+Pitea,21.47037691,65.30888889,www.bottenvikens-stuveri.se
+Sodertalje,17.65918728,59.16972222,www.soeport.se
+Trelleborg,13.15159011,55.36805556,www.trelleborgshamn.se
+Uddevalla,11.90477032,58.34805556,www.uddevalla-hamn.se
+Ystad,13.82073027,55.42138889,www.ystad.se
+Bangkok,100.5849234,13.69583333,www.bkp.port.co.th
+Laem Chabang,100.8909305,13.07388889,www.port.co.th
+Sriracha,100.9186101,13.17138889,www.srirachaport.com
+Point Lisas,-61.48951708,10.38833333,www.plipdeco.com
+Mersin,34.64057715,36.79694444,www.tcdd.gov.tr
+Berdyansk,36.77320377,46.75138889,www.ukrport.org.ua
+Kerch,36.48563015,45.355,www.ukrport.org.ua
+Richmond,-122.3590106,37.91388889,www.ci.richmond.ca.us/index.asp?NID=102
+Wilmington,-75.51984688,39.71666667,www.portofwilmingtonde.com
+Quincy,-70.96896349,42.24138889,www.forerivershipyard.com
+Nawiliwili,-159.3530035,21.95388889,www.state.hi.us/dot/harbors
+Monterey,-121.888987,36.60555556,www.monterey.org/harbor
+Wilmington,-77.95265018,34.19194444,www.ncports.com
+Gloucester City,-75.12267373,39.90361111,www.holtoversight.com
+Bayonne,-74.1024735,40.6625,www.bayonnenj.org
+Baltimore,-76.55565371,39.2325,www.mpa.state.md.us
+Jacksonville,-81.55918728,30.38083333,www.jaxport.com
+Newport News,-76.4262073,36.98055556,www.vaports.com
+Port Arthur,-93.95706714,29.84305556,www.portofportarthur.com
+Portsmouth,-76.28828033,36.81666667,www.vaports.com
+Wilmington,-77.95265018,34.19194444,www.ncports.com
+Port Arthur,-93.95706714,29.84305556,www.portofportarthur.com
+Alexandria,-77.03722026,38.80111111,
+Newport News,-76.4262073,36.98055556,www.vaports.com
+Brownsville,-122.6086572,47.65138889,www.portofbrownsville.org
+Vancouver,-122.7038869,45.63472222,www.portvanusa.com
+Guanta,-64.59040047,10.24916667,www.puertodeguanta.gob.ve
+Keelung,121.72583696694346,25.220760141757456,
+Arrecife,-13.623954376704255,28.948964844057482,
+St Thomas,-64.92841530036452,18.332123222010704,
+Basseterre,-62.750002499299285,17.27882702118545,
+New Orleans,-90.05637124381114,29.93419996813862,
+Freeport,-78.72766361581795,26.5384106344139,
+Trenton,-77.56,44.1,
+Goderich,-81.73,43.75,
+Midland,-79.91,44.75,
+St Joseph,-86.48,42.11,
+Racine,-87.78,42.73,
+Menominee,-87.6,45.1,
+Escanaba,-87.05,45.76,
+Sacramento,-121.5,38.58,
+Great Yarmouth,1.73,52.61,
+Dundee,-2.96,56.46,
+Portmahomack Harbor,-3.83,57.83,
+Wick,-3.08,58.43,
+Oban,-5.46,56.41,
+Douglas,-4.46,54.15,
+Londonderry,-7.31,55,
+Silloth,-3.4,54.86,
+Ambriz,13.09375736,-7.833055556,
+Cabinda,12.19022379,-5.55,
+Soyo,12.32037691,-6.121388889,www.otal.com/angola
+Durres,19.45300353,41.30777778,
+Curacao,-68.91825677,12.11916667,www.curports.com
+Al Fujayrah,56.3565371,25.17833333,www.fujairahport.ae
+Caleta Olivia,-67.50848057,-46.43305556,
+Puerto Deseado,-65.9040636,-47.75555556,www.scruz.gov.ar/puertos
+Rio Gallegos,-69.21825677,-51.61166667,www.scruz.gov.ar/puertos
+Rio Grande,-67.7024735,-53.79444444,
+San Julian,-67.71896349,-49.29972222,www.scruz.gov.ar/puertos
+Coffs Harbour,153.1414605,-30.3075,
+Esperance,121.893404,-33.87194444,www.esperanceport.com.au
+Port Augusta,137.7567138,-32.48861111,
+Bowen,148.25053,-20.02083333,
+Bundaberg,152.388457,-24.76722222,www.portofbundaberg.com.au
+Burketown,139.737927,-17.55361111,www.cairnsports.com.au
+Carnarvon,113.642874,-24.895,
+Cooktown,145.2437574,-15.45972222,www.cairnsports.com.au
+Derby,123.6051237,-17.29222222,
+Eden,149.9053004,-37.07194444,www.eden.nsw.gov.au
+George Town,146.8202002,-41.10972222,
+Geraldton,114.6007067,-28.77277778,www.gpa.wa.gov.au
+Karumba,140.8333333,-17.48944444,www.cairnsports.com.au
+Kingscote,137.6395171,-35.655,
+Maryborough,152.9060071,-25.295,www.nqbp.com.au
+Strahan,145.3205536,-42.15833333,www.tasports.com.au
+Mongla,89.58598351,22.48694444,www.monglaport.com.bd
+Aracaju,-37.03951708,-10.92527778,www.ibritto.com.br
+Fortaleza,-38.52143698,-3.7175,www.docasdoceara.com.br
+Macapa,-51.04269729,0.032222222,
+Navegantes,-48.65424028,-26.89888889,www.portonave.com.br
+Pelotas,-52.3237338,-31.78194444,
+Campbell River,-125.2386337,50.03194444,
+Goose Bay,-60.34234393,53.38444444,
+Masset,-132.1411072,54.00666667,
+Matane,-67.57126031,48.84194444,
+Nanisivik,-84.54305065,73.06861111,
+New Richmond,-65.83492344,48.13861111,
+Port Hardy,-127.4836867,50.72111111,
+Port Hawkesbury,-61.35565371,45.61,www.straitsuperport.com
+Squamish,-123.1666667,49.68305556,www.sqterminals.com
+Stephenville,-58.54075383,48.53527778,www.portharmonauthority.ca
+Stewart,-129.9895171,55.92861111,www.stewart-hyder.com
+Tahsis,-126.6540636,49.9175,
+Sandspit,-131.8196702,53.25527778,
+Tuktoyaktuk,-132.9858068,69.43138889,
+Ancud,-73.82567727,-41.86861111,
+Castro,-73.76684335,-42.48277778,
+Chanaral,-70.6343934,-26.35055556,
+Puerto Natales,-72.50936396,-51.73111111,
+Taltal,-70.48457008,-25.39722222,
+Guangzhou,113.6710836,22.64027778,
+Jiangyin,120.2212603,31.93194444,
+Lianyungang,119.4084806,34.74527778,www.lygport.com.cn
+Sanya,109.50053,18.23972222,
+Zhanjiang,110.4063604,21.16972222,www.zjport.com
+Zhoushan,122.1026502,30.00333333,www.zsport.com.cn
+San-Pedro,-6.617020024,4.743055556,
+Cartagena,-75.52567727,10.40333333,www.sprc.com.co
+Tolu,-75.5852768,9.520277778,www.navescolombia.com
+Tumaco,-78.75954064,1.813055556,www.navescolombia.com
+Turbo,-76.73386337,8.087777778,www.navescolombia.com
+Baracoa,-74.50229682,20.35305556,
+Nicaro,-75.55088339,20.71333333,
+Nueva Gerona,-82.79322733,21.90333333,
+Helgoland,7.891283863,54.1775,www.helgoland.de
+Travemunde,10.86825677,53.95222222,
+Thisted,8.692167256,56.95277778,
+Manta,-80.72090695,-0.935555556,www.apmanta.gov.ec
+Esmeraldas,-79.64269729,0.989444444,www.puertoesmeraldas.gov.ec
+Corralejo,-13.85883392,28.74138889,
+Ceuta,-5.310424028,35.89027778,www.puertodeceuta.com
+Melilla,-2.922850412,35.28,www.puertodemelilla.es
+San Sebastian de la Gomera,-17.10512367,28.08805556,
+Santa Cruz de La Palma,-17.76666667,28.67583333,
+Parnu,24.4746172,58.38111111,www.transcom.ee
+Kuopio,27.68987044,62.88833333,
+Joensuu,29.77709069,62.60444444,www.jns.fi
+Varkaus,27.87479388,62.3125,
+Savusavu,179.309364,-16.81777778,www.fijiports.com.fj
+Cherbourg,-1.620376914,49.64638889,www.ville-cherbourg.fr/fr/ville_maritime/port_de_plaisance/
+Caen,-0.326383981,49.19055556,www.caen.port.fr
+Calvi,8.755300353,42.56583333,
+Propriano,8.900353357,41.67694444,www.corse-du-sud.cci.fr
+Quimper,-4.108127208,47.98944444,
+Vannes,-2.756360424,47.64388889,
+Yap,138.1194935,9.513333333,
+Bristol,-2.707773852,51.49888889,www.bristolport.co.uk
+Hull,-0.285100118,53.74361111,www.abports.co.uk/custinfo/ports/hull.htm
+Newcastle upon Tyne,-1.590930506,54.965,
+Tyne,-1.440930506,54.99444444,www.portoftyne.com
+Rochester,0.685806832,51.43472222,www.thamesport.co.uk
+Tema,0.007420495,5.631944444,www.ghanaports.gov.gh
+Alexandroupolis,25.88916372,40.84138889,
+Kos,27.28987044,36.89444444,
+Paros,25.15070671,37.08777778,
+Samos,26.96666667,37.75444444,
+Nanortalik,-45.23810365,60.13972222,www.ral.gl
+Qaanaaq,-69.23510012,77.46694444,
+New Amsterdam,-57.52179034,6.237777778,www.gnsc.com
+La Ceiba,-86.75689046,15.79388889,www.enp.hn
+Tela,-87.45583039,15.78388889,www.enp.hn
+Mali Losinj,14.45759717,44.53833333,
+Jacmel,-72.53598351,18.23166667,www.apn.gouv.ht
+Jeremie,-74.10706714,18.64361111,www.apn.gouv.ht
+Sorong,131.0203769,-1.3075,
+Lhokseumawe,97.14287397,5.166666667,www.inaport1.co.id
+Nunukan,117.654947,4.145555556,
+Panjang,105.3070671,-5.460277778,portal.inaport2.co.id
+Tanjung Priok,106.8904005,-6.101388889,www.priokport.co.id
+Mangalore,74.80742049,12.92694444,www.newmangalore-port.com
+Porbandar,69.58739694,21.63944444,www.gmbports.org
+Ratnagiri,73.27179034,17.00194444,
+Bantry,-9.456183746,51.68055556,bantrybayport.com
+Wexford,-6.456183746,52.34111111,
+Khorramshahr,48.18545347,30.4325,www.khport.ir
+Djupivogur,-14.28651355,64.66055556,www.djupivogur.is
+Faskrudsfjordur,-14.00883392,64.92972222,
+Raufarhofn,-15.94146054,66.45638889,www.raufarhofn.is
+Pantelleria,11.93792697,36.83333333,
+Catania,15.09093051,37.49583333,www.porto.catania.it
+Fiumicino,12.23545347,41.75583333,
+Lampedusa,12.6024735,35.49916667,
+Manfredonia,15.92532391,41.62416667,
+Ocho Rios,-77.10671378,18.41027778,www.portjam.com
+Port Antonio,-76.45176678,18.18111111,www.portjam.com
+Nishinoomote,130.9856302,30.73166667,www.city.nishinoomote.kagoshima.jp
+Akita,140.0398704,39.76222222,www.city.akita.akita.jp/city/in/hb/port
+Hachinohe,141.5235571,40.54583333,www.pref.aomori.lg.jp/kowankuko/english/minato/hachinohe/hachinohe.htm
+Ishigaki,124.1512367,24.33555556,
+Matsuyama,132.693404,33.85527778,
+Sakata,139.8035336,38.93944444,www.port-of-sakata.jp
+Takamatsu,134.0533569,34.35527778,
+Wakkanai,141.6891637,45.41055556,www.city.wakkanai.hokkaido.jp
+Tottori,134.187927,35.54027778,www.city.tottori.lg.jp
+Lamu,40.90159011,-2.268055556,www.kpa.co.ke
+Gunsan,126.5881037,35.95972222,gunsan.mltm.go.kr/eng
+Pohang,129.4028269,36.01972222,
+Samcheok,129.1882803,37.43361111,donghae.momaf.go.kr
+Sokcho,128.5923439,38.20694444,donghae.momaf.go.kr
+Ulsan,129.3856302,35.48777778,ulsan.mltm.go.kr
+Tripoli,35.81914016,34.45527778,www.tripoliport.com
+Buchanan,-10.05265018,5.858055556,www.nationalportauthorityliberia.org
+Tripoli,13.19358068,32.9075,www.lpclibya.com
+Agadir,-9.634923439,30.42388889,www.marsamaroc.co.ma
+Al Hoceima,-3.919846879,35.24777778,http://www.marsamaroc.co.ma
+Dakhla,-15.93386337,23.68222222,www.marsamaroc.co.ma
+Antalaha,50.2762073,-14.9,
+Manakara,48.01878681,-22.1425,
+Mananjary,48.3262073,-21.24916667,
+Morondava,44.27196702,-20.28861111,
+Toamasina,49.42196702,-18.15722222,
+Loreto,-111.3368669,26.01472222,
+Campeche,-90.59040047,19.8125,www.fis.com/campeche
+Cozumel,-86.95742049,20.495,www.apiqroo.com.mx
+La Paz,-110.310424,24.16944444,www.bajaport.com
+Playa del Carmen,-87.06772674,20.62444444,www.apiqroo.com.mx
+Puerto Penasco,-113.5423439,31.30611111,
+Puerto Vallarta,-105.2409305,20.65916667,www.apivta.com
+Coatzacoalcos,-94.41896349,18.12972222,www.apicoatza.com
+Bassein,94.72338045,16.77972222,www.mot.gov.mm/mpa/index.html
+Nacala,40.6671967,-14.54138889,www.cfmnet.co.mz
+Pemba,40.48492344,-12.96666667,www.cfmnet.co.mz
+Quelimane,36.87709069,-17.88166667,www.cfmnet.co.mz
+Port Louis,57.48987044,-20.14805556,www.mauport.com
+Malacca,102.1233804,2.248888889,www.portsworld.com/Ports/mallacaport.htm
+Port Dickson,101.7886337,2.536111111,www.portsworld.com/Ports/portdickson.htm
+Walvis Bay,14.50053004,-22.94055556,www.namport.com
+Calabar,8.316843345,4.986388889,www.nigerianports.org
+Groningen,6.586866902,53.21833333,
+Alta,23.23704358,69.96777778,www.altahavn.no
+Andenes,16.1237338,69.32416667,
+Bronnoysund,12.20194346,65.4725,www.bronnoyhavn.com
+Farsund,6.789870436,58.08861111,
+Floro,5.002826855,61.59777778,
+Kristiansand,7.986336867,58.14194444,www.kristiansandhavn.no
+Namsos,11.49004711,64.46416667,www.namsos.kommune.no
+Rorvik,11.22691402,64.86055556,
+Sandnessjoen,12.61878681,66.02166667,
+Stokmarknes,14.90989399,68.56833333,www.hadselhavnevesen.no
+Stord,5.501413428,59.78,
+Picton,174.004417,-41.28555556,portmarlborough.co.nz
+Dunedin,170.5193168,-45.87583333,
+Salalah,54.00318021,16.94166667,www.salalahport.com
+Gwadar,62.33863369,25.11222222,
+Bocas del Toro,-82.23757362,9.34,www.cocatram.org.ni/puertosca/pto_bocasdeltoro_panama.html
+La Palma,-78.15106007,8.413611111,www.cocatram.org.ni/puertosca/pto_lapalma_panama.html
+Chimbote,-78.60777385,-9.076666667,www.enapu.com.pe
+Ilo,-71.34375736,-17.64694444,www.enapu.com.pe
+Mollendo,-72.01024735,-17.03111111,
+Pisco,-76.22196702,-13.73305556,
+Dumaguete,123.3081272,9.311944444,www.ppa.com.ph
+General Santos,125.1542403,6.086111111,www.ppa.com.ph
+Buka,154.671967,-5.431944444,www.pngports.com.pg
+Daru,143.2065371,-9.068333333,www.pngports.com.pg
+Lae,146.9847468,-6.741111111,www.pngports.com.pg
+Madang,145.8003534,-5.213333333,www.pngports.com.pg
+Gdansk,18.66878681,54.39333333,www.portgdansk.pl
+Gdynia,18.53845701,54.53333333,www.port.gdynia.pl
+Aguadilla,-67.15706714,18.42944444,
+Arecibo,-66.70035336,18.48138889,www.prpa.gobierno.pr
+Mayaguez,-67.15689046,18.21388889,www.prpa.gobierno.pr
+Faro,-7.926030624,37.01055556,
+Bora-Bora,-151.75,-16.51666667,www.portdepapeete.pf
+Tulcea,28.81684335,45.19111111,apdm.galati.ro
+Amderma,61.55918728,69.75611111,
+Anadyr,177.5386337,64.74416667,morport.chukotnet.ru
+Pevek,170.2770907,69.70166667,
+Kaolack,-16.07196702,14.12944444,www.portdakar.sn
+Ziguinchor,-16.26808009,12.58972222,www.portdakar.sn
+Longyearbyen,15.6237338,78.22611111,
+Gizo,156.8388104,-8.101388889,
+Viru Harbour,157.7260306,-8.499722222,
+Kismayu,42.54110718,-0.374166667,
+Karlstad,13.52020024,59.37527778,www.vanerhamn.se
+Lidkoping,13.15936396,58.50916667,www.vanerhamn.se
+Skelleftea,21.25176678,64.67833333,
+Umea,20.26772674,63.81666667,www.umeahamn.se
+Providenciales,-72.25600707,21.76277778,www.turksandcaicosislands.gov.tc
+Songkhla,100.5696702,7.228611111,www.md.go.th
+Bandirma,27.95724382,40.35416667,www.tcdd.gov.tr
+Samsun,36.34040047,41.29972222,www.tcdd.gov.tr
+Sinop,35.14287397,42.02333333,
+Trabzon,39.73651355,41.00555556,
+Sevastopol,33.54146054,44.61888889,ukrport.org.ua
+Skagway,-135.3223204,59.45083333,
+Valdez,-146.3570671,61.10361111,www.ci.valdez.ak.us/port
+Apalachicola,-84.98669022,29.7275,
+Annapolis,-76.47426384,38.965,www.portannapolis.com
+Cambridge,-76.07108363,38.57416667,www.ci.cambridge.md.us
+Portland,-122.7836867,45.60583333,www.portofportlandor.com
+Bremerton,-122.6377503,47.5625,www.portofbremerton.org
+Rockland,-69.10212014,44.10305556,www.ci.rockland.me.us
+Santa Cruz,-122.0014134,36.96638889,www.santacruzharbor.org
+Chesapeake,-76.23951708,36.7225,
+Cumana,-64.18775029,10.47416667,www.selinger.com/cumana.htm
+Hai Phong,106.6751472,20.86722222,www.haiphongport.com.vn
+Corfu,19.910572060487087,39.621950140387334,
+Alexandria,30.16765718634613,31.334923292880035,
+Tangier,-5.824954241841614,35.79611353569427,
+Hamilton,-79.85,43.25,
+Windsor,-83.03,42.31,
+Rouge River,-83.11,42.28,
+Owen Sound,-80.93,44.58,
+Sault Ste Marie,-84.35,46.51,
+Saginaw,-83.93,43.43,
+Cheboygan,-84.46,45.65,
+Sault Ste Marie,-84.35,46.5,
+Muskegon,-86.26,43.23,
+Gary,-87.33,41.61,
+Waukegan,-87.81,42.36,
+Houghton,-88.56,47.11,
+Wrangell,-132.38,56.46,
+Petersburg,-132.95,56.81,
+Kemi,24.56,65.73,
+Vaasa,21.58,63.1,
+Turku,22.23,60.45,
+Liepaja,21.01,56.51,
+Europoort,4.11,51.95,
+Stornoway Harbor,-6.36,58.18,
+Lisboa,-9.16,38.7,
+Bonanza,-6.33,36.8,
+Ibiza,1.45,38.9,
+Rostov-Na-Donu,39.71,47.16,
+Tel Aviv Yafo,34.76,32.06,
+Tunis,10.25,36.8,
+Bejaia,5.08,36.75,
+Alger,3.06,36.76,
+St Louis,-16.51,16.01,
+Tin Can Island,3.3,6.41,
+Mocambique,40.73,-15.03,
+Assab,42.75,13,
+Massawa,39.46,15.61,
+Elat,34.95,29.55,
+Al Kuwayt,47.96,29.38,
+Bombay,72.83,18.83,
+Jawaharlal Nehru Port,72.93,18.95,
+Cochin,76.23,9.96,
+Madras,80.3,13.1,
+Calcutta,88.31,22.55,
+Phuket,98.4,7.83,
+Pulau Pinang,100.35,5.41,
+Belawan,98.68,3.78,
+Semarang,110.41,-6.95,
+Kupang,123.58,-10.16,
+Kuching,110.35,1.56,
+Miri,113.96,4.38,
+Kota Kinabalu,116.06,5.98,
+Pelabuhan Sandakan,118.11,5.83,
+Ujungpandang,119.4,-5.13,
+Davao,125.61,7.06,
+Nanjing,118.75,32.08,
+Hankow,114.28,30.58,
+Chang Sha,112.98,28.2,
+Khabarovsk,135.16,48.5,
+Petropavlovsk,158.65,53.05,
+Namibe,12.13545347,-15.19361111,www.otal.com/angola
+Bahia Blanca,-62.27090695,-38.79138889,www.puertobahiablanca.com
+La Plata,-57.89022379,-34.85527778,www.laplataport.com.ar
+Ushuaia,-68.30088339,-54.80944444,www.puertoushuaia.gov.ar
+Puerto Madryn,-65.03333333,-42.73611111,www.appm.com.ar
+Pago Pago,-170.687927,-14.27416667,americansamoa.gov
+Mackay,149.2237338,-21.10833333,www.nqbp.com.au
+Port Lincoln,135.8694935,-34.71833333,www.flindersports.com.au
+Port Pirie,138.0072438,-33.17694444,www.flindersports.com.au
+Albany,117.8866902,-35.03166667,www.albanyport.com.au
+Barrow Island,115.4709069,-20.72583333,
+Bunbury,115.6512367,-33.31527778,www.byport.com.au
+Burnie,145.9081272,-41.05277778,www.tasports.com.au
+Geelong,144.3873969,-38.12666667,www.geelongport.com.au
+Gladstone,151.2517668,-23.83,www.gpcl.com.au
+Newcastle,151.7691402,-32.9075,www.newportcorp.com.au
+Port Kembla,150.8935807,-34.4625,www.kemblaport.com.au
+Portland,141.609364,-38.34916667,www.portofportland.com.au
+Thursday Island,142.2189635,-10.58555556,www.cairnsports.com.au
+Townsville,146.8247939,-19.25083333,www.townsville-port.com.au
+Weipa,141.8666667,-12.67,www.nqbp.com.au
+Whyalla,137.5907538,-33.03833333,www.onesteel.com
+Wyndham,128.1008834,-15.45138889,
+Brussel (Bruxelles),4.386160188,50.88611111,www.portdebruxelles.irisnet.be
+Gent (Ghent),3.76737338,51.11444444,www.havengent.be
+Ilheus,-39.02567727,-14.78027778,www.codeba.com.br
+Maceio,-35.72232038,-9.678888889,www.portodemaceio.com.br
+Natal,-35.2,-5.783055556,www.codern.com.br
+Rio Grande,-52.0762073,-32.05611111,www.portoriogrande.com.br
+Vitoria,-40.33510012,-20.32333333,www.portodevitoria.com.br
+Ocean Falls,-127.6888104,52.35083333,
+Argentia,-53.9868669,47.29305556,www.argentia.ca/port.html
+Bathurst,-65.65,47.61666667,
+Gaspe,-64.43722026,48.82444444,www.tc.gc.ca/quebec/en/port/gaspe.htm
+Port Alberni,-124.8193168,49.23,www.portalberniportauthority.ca
+Powell River,-124.5247939,49.835,www.powellriver.ca
+Sept-Iles,-66.38386337,50.20638889,www.portsi.com
+Sydney,-60.20300353,46.14194444,www.portofsydney.ca
+Trois-Rivieres (Three Rivers),-72.53898704,46.33583333,www.porttr.com
+Yarmouth,-66.12090695,43.83555556,www.portofyarmouth.com
+Rimouski,-68.50812721,48.47777778,
+Riviere-du-Loup,-69.56808009,47.84666667,
+Saint-Anthony,-55.57709069,51.36666667,
+Summerside,-63.78704358,46.38861111,
+Arica,-70.32196702,-18.47305556,www.puertoarica.cl
+Tocopilla,-70.20565371,-22.08611111,
+Beihai,109.0705536,21.45861111,
+Jiangmen,113.0019435,22.5025,www.jmct.com.cn
+Wenzhou,120.8847468,27.99833333,www.wzport.com
+Yantai,121.388987,37.57111111,www.yantaiport.com.cn
+Zhuhai,113.5842167,22.23972222,www.zhuhai-port.com
+Santa Marta,-74.21702002,11.25194444,www.spsm.com.co
+Buenaventura,-77.05335689,3.883055556,www.puertobuenaventura.com
+Praia,-23.50318021,14.94472222,www.enapor.cv
+Golfito,-83.16666667,8.637777778,
+Cienfuegos,-80.45371025,22.14,
+Manzanillo,-77.13351001,20.3375,
+Matanzas,-81.53704358,23.05138889,
+Santiago de Cuba,-75.85671378,20.00166667,
+Emden,7.192873969,53.34611111,www.seaport-emden.de
+Flensburg,9.436866902,54.80333333,www.flensburg-tourismus.de
+Wilhelmshaven,8.122143698,53.53,www.wilhelmshaven-port.de
+Esbjerg,8.433863369,55.46555556,www.port-of-esbjerg.dk
+Odense,10.3868669,55.4175,www.odensehavn.dk
+Sonderborg,9.776737338,54.90694444,www.sonderborg-kommune.dk
+Ronne,14.68775029,55.09611111,www.roennehavn.dk
+Barahona,-71.08651355,18.21222222,www.apordom.gov.do
+Cabo Rojo,-71.654947,17.92527778,www.apordom.gov.do
+Oran,-0.636690224,35.7125,
+A Coruna,-8.387926973,43.36305556,www.puertocoruna.com
+Almeria,-2.471260306,36.83222222,www.apalmeriamotril.com
+Gijon,-5.688633687,43.55861111,www.puertogijon.es
+San Sebastian,-1.986866902,43.32277778,
+Santander,-3.804946996,43.44222222,www.puertosantander.es
+Tarragona,1.220200236,41.09611111,www.porttarragona.es
+Oulu,25.45459364,65.01583333,www.ouluport.com
+Bayonne,-1.493757362,43.51972222,www.bayonne.cci.fr
+Boulogne-sur-Mer,1.575500589,50.72361111,www.portboulogne.com
+Brest,-4.471436985,48.38055556,www.brest.port.fr
+Cannes,7.009187279,43.54805556,www.riviera-ports.com
+Cherbourg,-1.617550059,49.65222222,www.port-cherbourg.com
+Dieppe,1.08598351,49.92638889,
+Granville,-1.601060071,48.83472222,www.granville.cci.fr
+La Rochelle,-1.157773852,46.14666667,www.larochelle.port.fr
+Lorient,-3.352120141,47.73416667,www.lorient.port.fr
+Morlaix,-3.834923439,48.58527778,
+Rochefort,-0.953003534,45.94916667,www.rochefort.port.fr
+Toulon,5.904770318,43.11055556,
+Owendo,9.500883392,0.288333333,www.ports-gabon.com
+Aberdeen,-2.074617197,57.14222222,www.aberdeen-harbour.co.uk
+Liverpool,-3.007243816,53.43638889,www.merseydocks.co.uk
+Plymouth,-4.154063604,50.36472222,www.abports.co.uk/custinfo/ports/plym.htm
+Portsmouth,-1.1,50.8075,www.portsmouth-port.co.uk
+Batumi,41.65053004,41.64888889,www.batumiport.com
+Kavala,24.40194346,40.93138889,
+Chios,26.13775029,38.37722222,www.chiosport.gr
+Kalamata,22.10812721,37.02277778,
+Patras,21.73492344,38.25444444,www.patrasport.gr
+Volos,22.93669022,39.35277778,www.port-volos.gr
+Uummannaq,-52.11914016,70.67472222,www.ral.gl
+Puerto Barrios,-88.6040636,15.72833333,www.puertobarriosonline.com
+Pula,13.83474676,44.87166667,www.luckauprava-pula.hr
+Rijeka,14.42232038,45.3275,www.portauthority.hr
+Split,16.42550059,43.515,www.portsplit.com
+Banjarmasin,114.5553004,-3.321944444,www.pp3.co.id
+Tanjung Pandan,107.6270907,-2.75,portal.inaport2.co.id
+Port Blair,92.72391048,11.67222222,
+Kandla,70.22232038,23.01361111,www.kandlaport.com
+Pondicherry,79.82232038,11.91416667,port.pon.nic.in
+Cork,-8.424440518,51.90111111,www.portofcork.ie
+Galway,-9.043757362,53.27,www.galwayharbour.com
+Bushehr,50.8368669,28.98472222,www.pso.ir
+Ancona,13.49234393,43.61833333,www.autoritaportuale.ancona.it
+Bari,16.85530035,41.13694444,www.porto.bari.it
+Cagliari,9.107597173,39.20416667,www.porto.cagliari.it
+Olbia,9.517903416,40.92277778,www.olbiagolfoaranci.it
+Pescara,14.2237338,42.46777778,
+Reggio Calabria,15.64375736,38.12444444,
+Trapani,12.50388693,38.01361111,
+Aomori,140.742874,40.83138889,www.pref.aomori.lg.jp/kowankuko/english/minato/aomori/aomori.htm
+Hakodate,140.7090106,41.78777778,www.hakodate-port.jp
+Kagoshima,130.5687868,31.5925,www.pref.kagoshima.jp/home/kowanka/cruise-net/english/01kagoshima
+Kochi,133.5570671,33.52416667,www.pref.kochi.lg.jp
+Kushiro,144.3522968,42.98861111,www.city.kushiro.hokkaido.jp
+Niihama,133.2595406,33.97083333,
+Oita,131.6760306,33.27222222,www.pref.oita.jp/14300/faz/faz1/english/faz_en.html
+Shimonoseki,130.9010601,33.93444444,www.shimonoseki-port.com
+Tomakomai,141.6533569,42.6375,www.jptmk.com
+Toyama,137.2226737,36.75722222,
+Ube,131.2377503,33.93833333,
+Malindi,40.12302709,-3.213611111,www.kpa.co.ke
+Trincomalee,81.20388693,8.558333333,www.slpa.lk
+Klaipeda,21.13421673,55.68722222,www.portofklaipeda.lt
+Safi,-9.242697291,32.3075,www.sodep.co.ma
+Ensenada,-116.6228504,31.85083333,www.puertoensenada.com.mx
+Guaymas,-110.8687868,27.91916667,www.puertodeguaymas.com
+Manzanillo,-104.3008834,19.07055556,www.puerto-de-manzanillo.com.mx
+Salina Cruz,-95.20194346,16.15722222,www.apisal.com.mx
+Saipan,145.7349234,15.22583333,www.cpa.gov.mp
+Nouadhibou,-17.0418139,20.9075,
+Luderitz,15.15371025,-26.63777778,www.namport.com
+Bluefields,-83.75689046,12.01194444,
+Alesund,6.171613663,62.4725,www.alesund.havn.no
+Batsfjord,29.71772674,70.63416667,
+Bodo,14.37267373,67.28888889,www.bodohavn.no
+Hammerfest,23.67108363,70.66722222,
+Haugesund,5.25565371,59.41222222,www.karmsund-havn.no
+Kirkenes,30.05565371,69.72833333,
+Kristiansund,7.733333333,63.115,www.knhavn.no
+Mo i Rana,14.1237338,66.315,www.portofmoirana.no
+Molde,7.157420495,62.73638889,www.moldehavn.no
+Mosjoen,13.1868669,65.85194444,
+Narvik,17.41861013,68.43861111,www.portofnarvik.com
+Stavanger,5.737220259,58.97888889,www.stavanger-havn.no
+Vadso,29.73757362,70.07111111,
+Vardo,31.10388693,70.37333333,
+New Plymouth,174.0377503,-39.05722222,www.porttaranaki.co.nz
+Gisborne,178.0224971,-38.6725,www.eastland.co.nz
+Greymouth,171.20053,-42.44472222,www.greydc.govt.nz
+Napier,176.9180801,-39.475,www.portofnapier.co.nz
+Tauranga,176.1740872,-37.65944444,www.port-tauranga.co.nz
+Wanganui,174.9895171,-39.94416667,
+Westport,171.5912839,-41.75027778,www.westportharbour.co.nz
+Whangarei,174.3426973,-35.75111111,www.nrc.govt.nz
+Timaru,171.2542403,-44.38916667,www.primeport.co.nz
+Talara,-81.2746172,-4.573055556,www.ultramarnetwork.com/TextosPeru/Marc-014.html
+Masbate,123.6198469,12.36805556,www.ppa.com.ph
+Subic Bay,120.2747939,14.80833333,www.sbma.com
+Alotau,150.4510601,-10.31277778,www.pngports.com.pg
+Kavieng,150.7866902,-2.584722222,www.pngports.com.pg
+Kieta,155.626914,-6.215277778,www.pngports.com.pg
+Rabaul,152.1851001,-4.241111111,www.pngports.com.pg
+Vanimo,141.2923439,-2.683611111,www.pngports.com.pg
+Ponce,-66.61024735,17.96805556,www.puertodelasamericaspr.com
+Sines,-8.867020024,37.94277778,www.portodesines.pt
+Horta,-28.62196702,38.53,
+Arkhangelsk,40.55636042,64.5425,www.ascp.ru
+Murmansk,33.04146054,68.9725,
+Tiksi,128.8728504,71.64305556,
+Jizan,42.5352768,16.89027778,www.ports.gov.sa
+Berbera,45,10.44083333,
+Nieuw Nickerie,-57.00176678,5.951666667,
+Malmo,13.00159011,55.62555556,www.cmport.com
+Gavle,17.19269729,60.68444444,www.gavle.se
+Halmstad,12.85,56.655,www.halmstadharbour.se
+Helsingborg,12.68757362,56.03333333,www.port.helsingborg.se
+Hudiksvall,17.11861013,61.72166667,
+Kalmar,16.36914016,56.65916667,www.kalmar.se/kalmarhamn
+Ornskoldsvik,18.72585395,63.27611111,
+Ronneby,15.3,56.17472222,
+Soderhamn,17.0893404,61.30833333,www.sshab.se
+Vastervik,16.65194346,57.75583333,www.osterstroms.com
+Visby,18.2746172,57.63555556,www.visbyport.com
+Tekirdag,27.50795053,40.9675,www.akport.com.tr
+Tanga,39.10318021,-5.065555556,www.tanzaniaports.com
+Kherson,32.60742049,46.61861111,www.ukrport.org.ua
+Colonia,-57.84216726,-34.47166667,www.anp.com.uy
+Cordova,-145.7563604,60.55,www.cityofcordova.net
+Ketchikan,-131.6712603,55.34694444,www.city.ketchikan.ak.us
+Bangor,-68.76984688,44.79194444,www.bangormaine.gov/cs_inf_harbor.php
+Stockton,-121.3230271,37.95055556,www.portofstockton.com
+Bridgeport,-73.17638398,41.1725,www.portofbridgeport.com
+New Haven,-72.90954064,41.28638889,www.cityofnewhaven.com/PortAuthority
+Port Everglades,-80.10865724,26.08444444,www.broward.org/port
+Savannah,-81.12249706,32.11083333,www.gaports.com
+Portland,-70.23951708,43.65333333,www.portofportlandmaine.org
+Gulfport,-89.08845701,30.35861111,www.shipmspa.com
+Portsmouth,-70.76861013,43.0875,www.portofnh.org
+Newark,-74.13722026,40.7,www.panynj.gov
+Astoria,-123.8262073,46.18944444,www.portofastoria.com
+Port Everglades,-80.10865724,26.08444444,www.broward.org/port
+Corpus Christi,-97.40459364,27.81277778,www.portofcorpuschristi.com
+Pascagoula,-88.53722026,30.35138889,www.portofpascagoula.com
+Tacoma,-122.4042403,47.26722222,www.portoftacoma.com
+Beaumont,-94.08421673,30.07777778,www.portofbeaumont.com
+Olympia,-122.9007067,47.05333333,www.portolympia.com
+Port Angeles,-123.4351001,48.13083333,www.portofpa.com
+Port Townsend,-122.7531802,48.11444444,www.portofpt.com
+Puerto Cabello,-67.99305065,10.47722222,www.ipapc.gov.ve
+Mukalla,49.14375736,14.52222222,www.portofaden.com
+East London,27.90477032,-33.02527778,http://www.transnetnationalportsauthority.net
+Mossel Bay,21.41825677,-34.37527778,www.transnetnationalportsauthority.net
+Richards Bay,32.05618375,-28.80472222,www.transnetnationalportsauthority.net
+Erie,-80.1,42.15,
+Bay City,-83.86,43.6,
+Milwaukee,-87.88,43.03,
+Coos Bay,-124.21,43.36,
+Sitka,-135.33,57.05,
+Kodiak,-152.4,57.78,
+Lobito,13.56931684,-12.33694444,
+Abu Dhabi,54.37267373,24.525,www.portzayed.gov.ae
+Comodoro Rivadavia,-67.45989399,-45.85583333,
+Mar del Plata,-57.53333333,-38.04277778,www.consejoportuario.com.ar
+Cairns,145.7755006,-16.92972222,www.cairnsport.com.au
+Broome,122.2091873,-18.0025,www.broomeport.com
+Devonport,146.3675501,-41.16777778,www.tasports.com.au
+Hobart,147.3358068,-42.88027778,www.tasports.com.au
+Antwerpen,4.293757362,51.29777778,www.portofantwerp.be
+Varna,27.88863369,43.19444444,www.port-varna.bg
+Belize City,-88.20194346,17.47972222,
+Hamilton,-64.77638398,32.29111111,
+Belem,-48.48474676,-1.451666667,www.cdp.com.br
+Paranagua,-48.51914016,-25.50083333,www.portosdoparana.pr.gov.br
+Porto Alegre,-51.22408716,-30.0175,
+Recife,-34.86896349,-8.053611111,www.portodorecife.pe.gov.br
+Salvador,-38.50477032,-12.95861111,www.codeba.com.br
+Santos,-46.30053004,-23.96888889,www.portodesantos.com
+Charlottetown,-63.11896349,46.23166667,
+Halifax,-63.57444052,44.65694444,www.portofhalifax.ca
+Nanaimo,-123.926384,49.16944444,www.npa.ca
+Quebec,-71.2090106,46.80583333,www.portquebec.ca
+Victoria,-123.4065371,48.43111111,www.victoriaharbour.org
+Prince Rupert,-130.3370436,54.30972222,www.rupertport.com
+Saint-John,-66.05989399,45.26777778,www.sjport.com
+Antofagasta,-70.40371025,-23.65027778,www.puertoantofagasta.cl
+Iquique,-70.15176678,-20.20277778,www.epi.cl
+Puerto Montt,-72.95441696,-41.48361111,www.empormontt.cl
+Haikou,110.2749706,20.02777778,
+Ningbo,121.5533569,29.86666667,www.nbport.com.cn/wps/portal
+Xiamen,118.0200236,24.45,www.portxiamen.com.cn
+Abidjan,-3.966666667,5.233055556,www.paa-ci.org
+Douala,9.685630153,4.055,www.otal.com/cameroon/index.htm
+Pointe Noire,11.82691402,-4.784444444,
+Barranquilla,-74.75618375,10.96722222,www.spdelnorte.com
+Moroni,43.24322733,-11.70138889,
+Mariel,-82.75600707,23.00638889,
+Larnaca,33.6393404,34.92416667,www.cpa.gov.cy
+Limassol,33.01772674,34.65,www.cpa.gov.cy
+Bremen,8.751060071,53.0975,www.bremen-ports.de
+Hamburg,9.958480565,53.52472222,www.hafen-hamburg.de
+Djibouti,43.13563015,11.60194444,www.dpworld-djiboutiport.com
+Aalborg,10.00530035,57.06111111,www.aalborghavn.dk
+Fredericia,9.74057715,55.55805556,www.adp-as.com
+Alicante,-0.48828033,38.33527778,www.puertoalicante.com
+Bilbao,-3.026914016,43.3425,www.bilbaoport.es
+Valencia,-0.318433451,39.44416667,www.valenciaport.com
+Fox Bay,-60.07073027,-51.95555556,
+Ajaccio,8.738810365,41.92,www.corse-du-sud.cci.fr
+Bastia,9.451943463,42.7,www.port-de-bastia.net
+Bordeaux,-0.553180212,44.86527778,www.bordeaux-port.fr
+Calais,1.850176678,50.96583333,www.calais-port.com
+Dunkerque,2.170906949,51.02166667,www.portdedunkerque.fr
+Honfleur,0.235100118,49.42222222,www.pays-auge.cci.fr/port/index.html
+Libreville,9.43368669,0.400833333,www.ports-gabon.com
+Port Gentil,8.785276796,-0.711944444,www.ports-gabon.com
+Belfast,-5.891107185,54.62055556,www.belfast-harbour.co.uk
+Dover,1.322143698,51.12083333,www.doverport.co.uk
+Inverness,-4.234746761,57.48666667,www.invernessharbour.co.uk
+Takoradi,-1.738457008,4.884166667,www.ghanaports.gov.gh
+Basse-Terre,-61.72709069,15.99638889,www.port-guadeloupe.com
+Pointe-a-Pitre,-61.53845701,16.23388889,www.port-guadeloupe.com
+Banjul,-16.57037691,13.44444444,www.gambiaports.com
+Bata,9.738103651,1.824166667,
+Iraklion,25.14110718,35.34555556,www.portheraklion.gr
+Thessaloniki,22.91772674,40.635,www.thpa.gr
+Cayenne,-52.33616019,4.935277778,www.guyane.cci.fr
+Kourou,-52.62426384,5.158888889,
+Georgetown,-58.1671967,6.819444444,www.gnsc.com
+Puerto Cortes,-87.94022379,15.83333333,www.enp.hn
+Zadar,15.21931684,44.1175,www.port-authority-zadar.hr
+Surabaya,113.9166667,-7.616666667,
+Manado,124.8258539,1.481944444,
+Senipah,117.2166667,-1.05,www.pertamina.com
+Bhavnagar,72.20600707,21.77,www.gmbports.org
+Visakhapatnam,83.28722026,17.69333333,www.vizagport.com
+Limerick,-8.633333333,52.66277778,www.sfpc.ie
+Bandar Abbas,56.20424028,27.14083333,
+Reykjavik,-21.83792697,64.14833333,www.reykjavik.is
+Seydisfjordur,-14.00424028,65.26277778,
+Trieste,13.75424028,45.645,www.porto.trieste.it
+Hiroshima,132.421437,34.36527778,www.pref.hiroshima.lg.jp
+Kobe,135.2381037,34.68416667,www.kptc.or.jp
+Nagasaki,129.8595406,32.74027778,www.doboku.pref.nagasaki.jp/~rinkai/kakukou/nagasaki.htm
+Otaru,141.0166667,43.19694444,
+Tokyo,139.788457,35.62472222,www.kouwan.metro.tokyo.jp
+Monrovia,-10.79375736,6.345555556,www.nationalportauthorityliberia.org
+Colombo,79.85017668,6.951388889,www.slpa.lk
+Casablanca,-7.600176678,33.60888889,www.marsamaroc.co.ma
+Monaco,7.420906949,43.73194444,
+Acapulco,-99.9024735,16.84444444,www.apiacapulcoport.com
+Mazatlan,-106.393404,23.19222222,www.apimazatlan.com.mx
+Tampico,-97.83368669,22.23694444,www.puertodetampico.com.mx
+Beira,34.83351001,-19.81916667,www.cfmnet.co.mz
+Maputo,32.55706714,-25.97277778,www.portmaputo.com
+Nouakchott,-16.02143698,18.03527778,
+Plymouth,-62.21984688,16.70333333,www.giu.gov.ms
+Fort-de-France,-61.05689046,14.59916667,www.martinique.cci.fr/port.asp
+Noumea,166.4258539,-22.25972222,
+Port Harcourt,7.003180212,4.769166667,www.nigerianports.org
+Corinto,-87.16914016,12.48194444,www.epn.com.ni
+Rotterdam,4.292873969,51.92722222,www.portofrotterdam.com
+Bergen,5.3196702,60.39694444,www.bergenhavn.no
+Tromso,18.96878681,69.65583333,www.tromso.havn.no
+Trondheim,10.38898704,63.43777778,www.trondheim.havn.no
+Nelson,173.271967,-41.25972222,www.portnelson.co.nz
+Muscat,58.4090106,23.60666667,www.pscoman.com
+Cebu,123.9226737,10.30638889,
+Zamboanga,122.071437,6.902777778,www.ppa.com.ph
+Port Moresby,147.1510601,-9.467222222,www.pngports.com.pg
+Wewak,143.65053,-3.57,www.pngports.com.pg
+Porto,-8.61861013,41.14111111,
+Ponta Delgada,-25.65883392,37.73694444,
+Papeete,-149.5696702,-17.53111111,www.portdepapeete.pf
+Doha,51.55565371,25.29805556,
+Kaliningrad,20.45547703,54.7,www.transmarine.ru/PORTINFO.HTM
+Vladivostok,131.8877503,43.09444444,www.vmtp.ru
+Vyborg,28.72638398,60.705,
+Port Sudan,37.22161366,19.61583333,www.sudanports.gov.sd
+Mogadishu,45.34093051,2.028888889,
+Paramaribo,-55.13898704,5.82,
+Goteborg,11.87002356,57.68916667,
+Lulea,22.15830389,65.57888889,www.lulea.se/hamnen
+Norrkoping,16.22567727,58.61027778,www.norrkoping-port.se
+Lome,1.284923439,6.139166667,www.togoport.tg
+Izmir,27.15388693,38.44388889,www.tcdd.gov.tr
+Kaohsiung,120.3070671,22.56527778,www.khb.gov.tw
+Taichung,120.5038869,24.25833333,www.tchb.gov.tw
+Odessa,30.73704358,46.50111111,www.port.odessa.ua
+Montevideo,-56.20424028,-34.90055556,www.anp.com.uy
+Juneau,-134.6700236,58.37916667,www.juneau.org
+Nome,-165.4251472,64.49833333,www.nomealaska.org/port
+Hilo,-155.0686101,19.73333333,www.state.hi.us/dot/harbors
+Bellingham,-122.5003534,48.74055556,www.portofbellingham.com
+Houston,-95.20212014,29.73916667,www.portofhouston.com
+Brownsville,-97.38457008,25.95722222,www.portofbrownsville.com
+Longview,-122.96702,46.11277778,www.portoflongview.com
+Kingstown,-61.24287397,13.16916667,www.svgpa.com
+La Guaira,-66.94022379,10.60277778,www.plcsa.gob.ve
+Maracaibo,-71.58828033,10.68361111,www.puertodemaracaibo.com
+Da Nang,108.2232038,16.08222222,www.danangportvn.com
+Port Vila,168.3058304,-17.74722222,www.vanuatugovernment.gov.vu
+Apia,-171.7579505,-13.82833333,www.spasamoa.ws
+Hodeidah,42.9352768,14.83361111,
+Ottawa,-75.7,45.43,
+Buffalo,-78.88,42.88,
+Cleveland,-81.71,41.5,
+Green Bay,-88.01,44.51,
+Duluth,-92.1,46.76,
+Eureka,-124.18,40.8,
+Luanda,13.25088339,-8.783888889,www.otal.com/angola
+Kralendijk, Bonaire,-68.27355713,12.14833333,
+Philipsburg,-63.04375736,18.01444444,
+Adelaide,138.5079505,-34.79916667,www.flindersports.com.au
+Brisbane,153.1684335,-27.3825,www.portbris.com.au
+Port Hedland,118.5732038,-20.3175,www.phpa.com.au
+Chittagong,91.82585395,22.26888889,www.cpa.gov.bd
+Bridgetown,-59.62408716,13.10694444,www.barbadosport.com
+Montreal,-73.5246172,45.54361111,www.port-montreal.com
+Punta Arenas,-70.90477032,-53.16833333,www.epa.co.cl
+Valdivia,-73.22656066,-39.81666667,
+Dalian,121.6503534,38.93361111,www.portdalian.com
+Fuzhou,119.30053,26.0475,
+Qingdao,120.31702,36.09583333,www.qdport.com
+Shanghai,121.4872203,31.22194444,www.portshanghai.com.cn
+Shantou,116.7040636,23.35472222,
+Puntarenas,-84.80424028,9.981666667,
+Kiel,10.15689046,54.33083333,www.port-of-kiel.de
+Roseau,-61.38598351,15.29638889,
+Santo Domingo,-69.87585395,18.47527778,www.apordom.gov.do
+Cartagena,-0.98598351,37.58944444,www.apc.es
+Vigo,-8.726207303,42.2425,www.apvigo.com
+Santa Cruz de Tenerife,-16.22656066,28.47472222,www.puertosdetenerife.org
+Tallinn,24.69075383,59.46,www.portoftallinn.com
+Suva,178.4210836,-18.1325,www.fijiports.com.fj
+Saint-Tropez,6.633333333,43.27055556,
+Glasgow,-4.303180212,55.86305556,www.glasgowharbour.com
+Southampton,-1.424440518,50.9025,www.abports.co.uk/custinfo/ports/soton.htm
+Gibraltar,-5.357243816,36.13694444,www.gibraltarport.com
+Conakry,-13.70989399,9.516388889,
+Bissau,-15.57267373,11.85833333,
+Canea,24.00971731,35.51805556,
+Katakolon,21.31861013,37.64638889,
+San Jose,-90.84128386,13.91555556,www.cocatram.org.ni/puertosca/pto_sanjose_guatemala.html
+Hong Kong,114.1561837,22.32111111,www.mardep.gov.hk
+Port-au-Prince,-72.33969376,18.56583333,www.apn.gouv.ht
+Surabaya,112.7239105,-7.206388889,www.tps.co.id
+Dublin,-6.206007067,53.34444444,www.dublinport.ie
+Waterford,-7.118786808,52.26638889,www.portofwaterford.com
+Haifa,35.01825677,32.8225,www.haifaport.org.il
+Livorno,10.30194346,43.55583333,www.porto.livorno.it
+Ischia,13.93810365,40.74527778,
+Kingston,-76.82479388,17.98166667,www.portjam.com
+Kitakyushu,130.8542403,33.9225,www.kitaqport.or.jp
+Mombasa,39.6221437,-4.053055556,www.kpa.co.ke
+Phnom Penh,104.9209069,11.58305556,www.ppap.com.kh
+Beirut,35.51949352,33.905,www.portdebeyrouth.com
+Male,73.50706714,4.175,www.maldport.com.mv
+Veracruz,-96.13368669,19.20833333,www.puertodeveracruz.com.mx
+Yangon,96.16878681,16.76583333,www.mot.gov.mm/mpa/index.html
+Wellington,174.7898704,-41.2775,www.centreport.co.nz
+Szczecin,14.58580683,53.43055556,www.port.szczecin.pl
+Jeddah,39.1590106,21.45861111,www.ports.gov.sa
+Dakar,-17.42514723,14.68222222,www.portdakar.sn
+Singapore,103.7221437,1.292777778,www.mpa.gov.sg
+Freetown,-13.20795053,8.494166667,
+Stockholm,18.10936396,59.335,www.stoports.com
+Bangkok,100.5691402,13.60694444,www.bmt.co.th
+Canakkale,26.52196702,40.26472222,www.canakkale.gov.tr
+Anchorage,-149.8877503,61.23555556,www.muni.org
+Long Beach,-118.2007067,33.74888889,www.polb.com
+Oakland,-122.3012367,37.79944444,www.portofoakland.com
+Jacksonville,-81.55918728,30.38083333,www.jaxport.com
+Philadelphia,-75.13457008,39.89527778,www.philaport.com
+Charleston,-79.92355713,32.82222222,www.scspa.com
+Newport,-71.32444052,41.4825,
+Ho Chi Minh City,106.7217903,10.79388889,www.vpa.org.vn/english/members/south/saigonnew.htm
+Aden,44.98969376,12.79555556,www.portofaden.com
+Durban,31.02338045,-29.88111111,www.transnetnationalportsauthority.net
+Port Elizabeth,25.6352768,-33.96138889,www.transnetnationalportsauthority.net
+Port Elizabeth,25.6352768,-33.96138889,www.transnetnationalportsauthority.net
+Detroit,-83.03,42.33,
+Port Of Memphis,-90.16,35.06,
+Tri-City Port,-90.2,38.71,
+Helsinki,24.96,60.16,
+Sankt-Peterburg,30.3,59.93,
+Oranjestad,-70.03881037,12.52,www.arubaports.com
+Dubai,55.26931684,25.26722222,www.dpa.ae
+Buenos Aires,-58.3696702,-34.59916667,www.puertobuenosaires.gov.ar
+Darwin,130.854947,-12.47027778,www.darwinport.nt.gov.au
+Melbourne,144.9171967,-37.83277778,www.portofmelbourne.com
+Perth,115.855477,-31.96527778,
+Sydney,151.1891637,-33.86222222,www.sydneyports.com.au
+Cotonou,2.422320377,6.346666667,www.portdecotonou.com
+Nassau,-77.32126031,25.07666667,
+Rio de Janeiro,-43.1918139,-22.88305556,www.portosrio.gov.br
+Vancouver,-123.071437,49.29777778,www.portmetrovancouver.com
+Liverpool,-64.70371025,44.04333333,
+Valparaiso,-71.61914016,-33.03527778,www.portvalparaiso.cl
+Guangzhou,113.409364,23.09416667,www.gzport.com
+Tianjin,117.4565371,39.00944444,www.ptacn.com
+Abidjan,-4.021260306,5.283333333,www.paa-ci.org
+Bremerhaven,8.553003534,53.56361111,www.bremen-ports.de
+Rostock,12.11790342,54.1525,www.rostock-port.de
+Tuborg,12.58404005,55.72611111,
+Guayaquil,-79.9024735,-2.284166667,www.puertodeguayaquil.com
+Port Said,32.30600707,31.25333333,www.psdports.org
+Barcelona,2.168786808,41.35472222,www.apb.es
+Malaga,-4.418256773,36.70944444,www.puertomalaga.com
+Palma de Mallorca,2.62532391,39.55111111,www.portdemallorca.com
+Le Havre,0.173733804,49.46694444,www.havre-port.net
+Marseille,5.341283863,43.32944444,www.marseille-port.fr
+Nice,7.285630153,43.69388889,www.riviera-ports.com
+London,-0.067196702,51.50277778,www.pla.co.uk
+Gythion,22.56755006,36.76,
+Rhodes,28.23351001,36.44361111,
+Dubrovnik,18.07638398,42.66,www.portdubrovnik.hr
+Civitavecchia,11.77567727,42.09888889,www.portidiroma.it
+Palermo,13.36984688,38.13083333,www.autport.pa.it
+Savona,8.489517079,44.31166667,www.porto.sv.it
+Marghera,12.24057715,45.45305556,www.port.venice.it
+Montego Bay,-77.93545347,18.4675,www.portjam.com
+Osaka,135.4338634,34.63583333,www.optc.or.jp
+Yokohama,139.6673734,35.43638889,www.city.yokohama.jp/me/port/en/index.html
+Riga,24.08810365,57.00777778,www.rop.lv
+Cabo San Lucas,-109.9007067,22.88388889,
+Marsaxlokk,14.54128386,35.82611111,www.maltafreeport.com.mt
+Amsterdam,4.824087161,52.41305556,www.amsterdamports.nl
+Oslo,10.73457008,59.89722222,www.ohv.oslo.no
+Auckland,174.7694935,-36.83638889,www.poal.co.nz
+Karachi,66.9737338,24.835,www.kpt.gov.pk
+Colon,-79.88510012,9.373333333,www.cct-pa.com
+Manila,120.943404,14.52416667,www.ppa.com.ph
+San Juan,-66.09128386,18.43611111,www.prpa.gobierno.pr
+Istanbul,28.993404,41.01277778,www.tdi.com.tr
+Taipei,121.3746172,25.15194444,www.tpport.gov.tw
+Dar es Salaam,39.293404,-6.834444444,www.tanzaniaports.com
+Mobile,-88.03775029,30.71138889,www.asdd.com
+Los Angeles,-118.2597173,33.73194444,www.portoflosangeles.org
+San Diego,-117.1572438,32.68444444,www.portofsandiego.org
+San Francisco,-122.4008834,37.78861111,www.sfport.com
+Miami,-80.16702002,25.775,www.miamidade.gov/portofmiami
+Tampa,-82.43616019,27.93,www.tampaport.com
+Honolulu,-157.8737338,21.30944444,www.state.hi.us/dot/harbors
+Boston,-71.03545347,42.36361111,www.massport.com/ports
+Baltimore,-76.55565371,39.2325,www.mpa.state.md.us
+New York,-74.02426384,40.68833333,www.panynj.gov
+Galveston,-94.81790342,29.30416667,www.portofgalveston.com
+Norfolk,-76.29252061,36.90194444,www.vaports.com
+Seattle,-122.3597173,47.60222222,www.portseattle.org
+Cape Town,18.4352768,-33.90916667,www.transnetnationalportsauthority.net
+Toronto,-79.38,43.61,
+Chicago,-87.6,41.88,
