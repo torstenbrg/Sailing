@@ -28,8 +28,9 @@ circle.port {
     vector-effect: non-scaling-stroke;
     stroke: blue;
     stroke-width:0.3;
-    fill: none;
-
+    fill: lightcyan;
+    cursor:pointer;
+    pointer-events:all;
 }
 line {
     vector-effect: non-scaling-stroke;

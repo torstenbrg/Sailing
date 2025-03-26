@@ -68,7 +68,7 @@ function updatePan() {
     group.setAttribute('transform', `translate(${panX} ${panY}) scale(${scale})`);
     portGroup.setAttribute('transform', `translate(${panX} ${panY}) scale(${scale})`);
     document.querySelectorAll('#portGroup circle').forEach(circle => {
-        let f = (scale > 3) ? 3 / scale: 1 / scale 
+        let f = (scale > 3) ? 3 / scale : 1 / scale
         circle.setAttribute("r", f);
     });
 }
@@ -80,8 +80,20 @@ function centerGrid() {
     }
     updatePan();
 }
+portGroup.addEventListener('click', function(e) {
+    const portElement = e.target.closest('circle.port');
+    if (portElement) {
+        const name = portElement.getAttribute('name');
+        const url = 'https://' + portElement.getAttribute('website');
+        if (url) {
+            console.log(`Port clicked: ${url}`)
+            // e.preventDefault;
+            // window.open(url, '_blank', 'noopener,noreferrer');
+        }
+    }
+});
 svg.addEventListener('wheel', e => {
-    e.preventDefault();
+    //e.preventDefault();
     const mouseX = e.clientX;
     const mouseY = e.clientY;
     const zoomFactor = e.deltaY < 0 ? 1.05 : 0.95;
@@ -96,6 +108,8 @@ svg.addEventListener('mousedown', e => {
     lastX = e.clientX;
     lastY = e.clientY;
 });
+svg.addEventListener('mouseup', () => isDragging = false);
+svg.addEventListener('mouseleave', () => isDragging = false);
 svg.addEventListener('mousemove', e => {
     if (isDragging) {
         panX += e.clientX - lastX;
@@ -109,6 +123,14 @@ svg.addEventListener('mousemove', e => {
         const x = (e.clientX - panX) / scale;
         const y = (e.clientY - panY) / scale;
         const element = document.elementFromPoint(e.clientX, e.clientY);
+        //let port = (element.classList.contains('port') ? '\n' + element.getAttribute('name') : '')
+        let port = '', site='';
+        if (element.classList.contains('port')) {
+            port = '\n' + element.getAttribute('name');
+            let t = element.getAttribute('website');
+            if (t) {site = '\n' + t}
+        }
+
         let id = element.getAttribute('id');
         let name = (id in countryNames) ? countryNames[id] : 'Water'
         const degrees = unproject(x, y);
@@ -119,7 +141,7 @@ svg.addEventListener('mousemove', e => {
             const lonString = degrees.lon.toFixed(dec).toString();
             const latPadded = latString.padStart(5 + dec);
             const lonPadded = lonString.padStart(5 + dec);
-            tooltip.textContent = `${name}\nLon: ${lonPadded}\nLat: ${latPadded}`;
+            tooltip.textContent = `${name}\nLon: ${lonPadded}\nLat: ${latPadded}${port}${site}`;
             tooltip.style.visibility = 'visible';
         } else {
             tooltip.style.visibility = 'hidden';
@@ -136,8 +158,6 @@ window.addEventListener('resize', () => {
     clearTimeout(resizeTimeout);
     resizeTimeout = setTimeout(resizeWindow(), 100);
 });
-svg.addEventListener('mouseup', () => isDragging = false);
-svg.addEventListener('mouseleave', () => isDragging = false);
 //window.addEventListener('click', () => debug());
 function prepareGrid() {
     w = window.innerWidth, h = window.innerHeight;
@@ -193,17 +213,6 @@ async function loadPorts() {
         return { name, longitude: parseFloat(longitude), latitude: parseFloat(latitude), website };
     });
 }
-// function loadPorts() {
-//     return fetch('./ports.txt')
-//         .then(response => response.text())
-//         .then(text => 
-//             text.split('\n').map(line => {
-//                 const [name, longitude, latitude, website] = line.split(',');
-//                 return { name, longitude: +longitude, latitude: +latitude, website };
-//             })
-//         );
-// }
-
 function createPortMarkers(ports) {
     ports.forEach(port => {
         const { x, y } = project(port.longitude, port.latitude);
@@ -217,8 +226,8 @@ function createPortMarkers(ports) {
         pc.setAttribute("cy", y);
         pc.setAttribute("r", "4");
         pc.classList.add("port");
-        pc.setAttribute("data-name", port.name);
-        pc.setAttribute("web-site", port.website);
+        pc.setAttribute("name", port.name);
+        pc.setAttribute("website", port.website);
         portGroup.appendChild(pc);
     });
 }
