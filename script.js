@@ -7,9 +7,6 @@ const group = document.getElementById('contentGroup');
 const portGroup = document.getElementById('portGroup');
 const tooltip = document.getElementById("tooltip");
 const loader = document.getElementById("loader");
-const pi = Math.PI, tan = Math.tan, log = Math.log;
-const exp = Math.exp, atan = Math.atan, abs = Math.abs;
-const rpd = pi / 180;
 let latS = -60, latN = 85
 let stepLon = 10, stepLat = 5;
 let lonW = -180, lonE = 180;
@@ -25,18 +22,7 @@ let animationFrameId = null;
 let coordsNW = { x: 0, y: 0 }, coordsSE = { x: 0, y: 0 }
 let grid = { w: 0, h: 0 };
 let fx = 0, fy = 0;
-let projectY = lat => log(tan(pi / 4 + (lat * rpd) / 2));
-let px0 = projectY(1e-9) / 1e-9; // with equator = 40075 km ~ 40 mm
 
-function project(lon, lat) {
-    let y = fy * log(tan(pi / 4 + (lat * rpd) / 2));
-    y = abs(y) < 1e-10 ? 0 : y;
-    return { x: lon * fx, y: -y };
-}
-function unproject(x, y) {
-    let lat = 2 * (atan(exp(y / fy)) - pi / 4) / rpd;
-    return { lon: x / fx, lat: -lat };
-}
 let lin = "lat";
 function generateGrid() {
     for (let lat = latS; lat <= latN; lat += stepLat) {
@@ -65,7 +51,7 @@ function updatePan() {
     group.setAttribute('transform', `translate(${panX} ${panY}) scale(${scale})`);
     portGroup.setAttribute('transform', `translate(${panX} ${panY}) scale(${scale})`);
     document.querySelectorAll('#portGroup circle').forEach(circle => {
-        let f = (scale > 3) ? 3 / scale : 1 / scale
+        let f = (scale > 2) ? 2 / scale : 1 / scale
         circle.setAttribute("r", f);
     });
 }
@@ -155,7 +141,6 @@ window.addEventListener('resize', () => {
     clearTimeout(resizeTimeout);
     resizeTimeout = setTimeout(resizeWindow(), 100);
 });
-//window.addEventListener('click', () => debug());
 function prepareGrid() {
     w = window.innerWidth, h = window.innerHeight;
     const Δlon = lonE - lonW; //Δlat = latN - latS, 
@@ -242,6 +227,7 @@ async function showTheMap() {
             const ports = await loadPorts();
             createPortMarkers(ports);
             centerGrid();
+            loadWinds();
             showVariables();
             setTimeout(resolve, 10);
         });
