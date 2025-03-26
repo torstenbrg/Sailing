@@ -7,11 +7,9 @@ const group = document.getElementById('contentGroup');
 const portGroup = document.getElementById('portGroup');
 const tooltip = document.getElementById("tooltip");
 const loader = document.getElementById("loader");
-
 const pi = Math.PI, tan = Math.tan, log = Math.log;
 const exp = Math.exp, atan = Math.atan, abs = Math.abs;
 const rpd = pi / 180;
-
 let latS = -60, latN = 85
 let stepLon = 10, stepLat = 5;
 let lonW = -180, lonE = 180;
@@ -24,7 +22,6 @@ let isResizing = false;
 let isZooming = false;
 let scale = 1
 let animationFrameId = null;
-
 let coordsNW = { x: 0, y: 0 }, coordsSE = { x: 0, y: 0 }
 let grid = { w: 0, h: 0 };
 let fx = 0, fy = 0;
@@ -214,6 +211,7 @@ async function loadPorts() {
     });
 }
 function createPortMarkers(ports) {
+    portGroup.innerHTML='';
     ports.forEach(port => {
         const { x, y } = project(port.longitude, port.latitude);
         if (isNaN(x) || isNaN(y)) {
