@@ -1,15 +1,11 @@
 const svg = document.getElementById('mainSvg');
-const lineT = document.getElementById('lineTemplate');
-const rectT = document.getElementById('rectTemplate');
-const pathT = document.getElementById('pathTemplate');
-const circT = document.getElementById('circTemplate');
 const group = document.getElementById('contentGroup');
 const portGroup = document.getElementById('portGroup');
 const tooltip = document.getElementById("tooltip");
 const loader = document.getElementById("loader");
 let latS = -60, latN = 85
-let stepLon = 10, stepLat = 5;
 let lonW = -180, lonE = 180;
+let stepLat = 5,stepLon = 10;
 let dec = 5;
 let w = 0, h = 0;
 let panX = 0, panY = 0;
@@ -18,11 +14,12 @@ let isDragging = false;
 let isResizing = false;
 let isZooming = false;
 let scale = 1
-let animationFrameId = null;
+//let animationFrameId = null;
 let coordsNW = { x: 0, y: 0 }, coordsSE = { x: 0, y: 0 }
 let grid = { w: 0, h: 0 };
 let fx = 0, fy = 0;
 
+const gridGroup = document.getElementById('gridGroup');
 let lin = "lat";
 function generateGrid() {
     for (let lat = latS; lat <= latN; lat += stepLat) {
@@ -36,24 +33,23 @@ function generateGrid() {
     }
 }
 function createLine(x1, y1, x2, y2) {
+    const lineT = document.getElementById('lineTemplate');
     const line = lineT.cloneNode();
+    gridGroup.appendChild(line);
     line.removeAttribute('id');
     line.setAttribute('class', `${lin}`)
     line.setAttribute('x1', x1);
     line.setAttribute('y1', y1);
     line.setAttribute('x2', x2);
     line.setAttribute('y2', y2);
-    line.setAttribute('stroke', '#c0c0c0')
     if (x1 == 0 || y1 == 0) { line.setAttribute('class', 'zero') }
-    group.appendChild(line);
 }
 function updatePan() {
-    group.setAttribute('transform', `translate(${panX} ${panY}) scale(${scale})`);
-    portGroup.setAttribute('transform', `translate(${panX} ${panY}) scale(${scale})`);
-    document.querySelectorAll('#portGroup circle').forEach(circle => {
-        let f = (scale > 2) ? 2 / scale : 1 / scale
+    portGroup.querySelectorAll('circle').forEach(circle => {
+        let f = (scale > 3) ? 4 / scale : 1 / scale
         circle.setAttribute("r", f);
     });
+    group.setAttribute('transform', `translate(${panX} ${panY}) scale(${scale})`);
 }
 function centerGrid() {
     if (!isResizing) {
@@ -63,7 +59,7 @@ function centerGrid() {
     }
     updatePan();
 }
-portGroup.addEventListener('click', function(e) {
+portGroup.addEventListener('click', function (e) {
     const portElement = e.target.closest('circle.port');
     if (portElement) {
         const name = portElement.getAttribute('name');
@@ -107,11 +103,11 @@ svg.addEventListener('mousemove', e => {
         const y = (e.clientY - panY) / scale;
         const element = document.elementFromPoint(e.clientX, e.clientY);
         //let port = (element.classList.contains('port') ? '\n' + element.getAttribute('name') : '')
-        let port = '', site='';
+        let port = '', site = '';
         if (element.classList.contains('port')) {
             port = '\n' + element.getAttribute('name');
             let t = element.getAttribute('website');
-            if (t) {site = '\n' + t}
+            if (t) { site = '\n' + t }
         }
 
         let id = element.getAttribute('id');
@@ -124,7 +120,7 @@ svg.addEventListener('mousemove', e => {
             const lonString = degrees.lon.toFixed(dec).toString();
             const latPadded = latString.padStart(5 + dec);
             const lonPadded = lonString.padStart(5 + dec);
-            tooltip.textContent = `${name}\nLon: ${lonPadded}\nLat: ${latPadded}${port}${site}`;
+            tooltip.textContent = `${name}\nLat: ${latPadded}\nLon: ${lonPadded}${port}${site}`;
             tooltip.style.visibility = 'visible';
         } else {
             tooltip.style.visibility = 'hidden';
@@ -155,16 +151,6 @@ function prepareGrid() {
         grid = { w: coordsSE.x - coordsNW.x, h: coordsSE.y - coordsNW.y };
     }
 }
-function showVariables() {
-    let ss = ["Variables"]
-    ss.push(`px0 = ${px0} `);
-    ss.push(`fx = ${fx} fy = ${fy}`);
-    ss.push(`coordsNW=x: ${coordsNW.x.toFixed(0)}, y: ${coordsNW.y.toFixed(0)}`)
-    ss.push(`coordsSE=x: ${coordsSE.x.toFixed(0)}, y: ${coordsSE.y.toFixed(0)}`)
-    ss.push(`grid=w:${grid.w.toFixed(0)}, h:${grid.h.toFixed(0)}`);
-    ss.push(`w=${w} h=${h}`)
-    console.log(ss.join('\n'));
-}
 function processSvgPath(mercPath, project) {
     const coordRegex = /(-?\d+(?:\.\d+)?(?:[eE][+-]?\d+)?),(-?\d+(?:\.\d+)?(?:[eE][+-]?\d+)?)/g;
     const xyPath = mercPath.replace(coordRegex, (match, lon, lat) => {
@@ -175,12 +161,14 @@ function processSvgPath(mercPath, project) {
 }
 function loadContryPaths() {
     const excluded = "antarctica".split("|");
+    const countryGroup = document.getElementById('countryGroup');
+    const pathT = document.getElementById('pathTemplate');
     let countries = allCountries.split('|')
         .filter(country => !excluded.includes(country))
         .sort();
     countries.forEach(country => {
         let path = pathT.cloneNode();
-        group.appendChild(path);
+        countryGroup.appendChild(path);
         const d = processSvgPath(countryData[country], project);
         path.setAttribute('id', country)
         path.setAttribute('d', d);
@@ -196,7 +184,7 @@ async function loadPorts() {
     });
 }
 function createPortMarkers(ports) {
-    portGroup.innerHTML='';
+    const circT = document.getElementById('circTemplate');
     ports.forEach(port => {
         const { x, y } = project(port.longitude, port.latitude);
         if (isNaN(x) || isNaN(y)) {
@@ -204,39 +192,41 @@ function createPortMarkers(ports) {
             return;
         }
         const pc = circT.cloneNode();
+        portGroup.appendChild(pc);
         pc.removeAttribute('id')
         pc.setAttribute("cx", x);
         pc.setAttribute("cy", y);
-        pc.setAttribute("r", "4");
+        pc.setAttribute("r", "2");
         pc.classList.add("port");
         pc.setAttribute("name", port.name);
         pc.setAttribute("website", port.website);
-        portGroup.appendChild(pc);
     });
 }
+
 async function showTheMap() {
     loader.style.display = 'flex';
-    void loader.offsetHeight; // trick to ensure DOM cahnges are applied immediately
-    await new Promise(resolve => {
-        requestAnimationFrame(async () => {
-            svg.style.display = "none"
-            contentGroup.innerHTML = '';
-            prepareGrid();
-            loadContryPaths();
-            generateGrid();
-            const ports = await loadPorts();
-            createPortMarkers(ports);
-            centerGrid();
-            loadWinds();
-            showVariables();
-            setTimeout(resolve, 10);
-        });
-    });
+    void loader.offsetHeight; // Ensure DOM changes apply immediately
+    await new Promise(requestAnimationFrame); // Wait for next frame
+    svg.style.display = "none";
+    prepareGrid();
+    loadContryPaths();
+    generateGrid();
+    const ports = await loadPorts();
+    createPortMarkers(ports);
+    centerGrid();
+    await loadWinds();
+    //showVariables();
     loader.style.display = 'none';
     svg.style.display = "block";
 }
-showTheMap();
+function showVariables() {
+    let ss = ["Variables"]
+    ss.push(`px0 = ${px0} `);
+    ss.push(`fx = ${fx} fy = ${fy}`);
+    ss.push(`coordsNW=x: ${coordsNW.x.toFixed(0)}, y: ${coordsNW.y.toFixed(0)}`)
+    ss.push(`coordsSE=x: ${coordsSE.x.toFixed(0)}, y: ${coordsSE.y.toFixed(0)}`)
+    ss.push(`grid=w:${grid.w.toFixed(0)}, h:${grid.h.toFixed(0)}`);
+    ss.push(`w=${w} h=${h}`)
+    console.log(ss.join('\n'));
+}
 
-
-//await new Promise(r => setTimeout(r, 10));
-// new Promise(r => setTimeout(r, 1)) // Tiny delay to ensure loader paints | after showTheMAp

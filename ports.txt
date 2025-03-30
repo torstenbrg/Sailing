@@ -937,7 +937,7 @@ Green Bay,-88.01,44.51,
 Duluth,-92.1,46.76,
 Eureka,-124.18,40.8,
 Luanda,13.25088339,-8.783888889,www.otal.com/angola
-Kralendijk, Bonaire,-68.27355713,12.14833333,
+Kralendijk-Bonaire,-68.27355713,12.14833333,
 Philipsburg,-63.04375736,18.01444444,
 Adelaide,138.5079505,-34.79916667,www.flindersports.com.au
 Brisbane,153.1684335,-27.3825,www.portbris.com.au
@@ -1005,7 +1005,6 @@ Newport,-71.32444052,41.4825,
 Ho Chi Minh City,106.7217903,10.79388889,www.vpa.org.vn/english/members/south/saigonnew.htm
 Aden,44.98969376,12.79555556,www.portofaden.com
 Durban,31.02338045,-29.88111111,www.transnetnationalportsauthority.net
-Port Elizabeth,25.6352768,-33.96138889,www.transnetnationalportsauthority.net
 Port Elizabeth,25.6352768,-33.96138889,www.transnetnationalportsauthority.net
 Detroit,-83.03,42.33,
 Port Of Memphis,-90.16,35.06,

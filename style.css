@@ -34,7 +34,7 @@ circle.port {
 }
 line {
     vector-effect: non-scaling-stroke;
-    stroke: lightgray;
+    stroke: darkgray;
     stroke-width: 0.3;
 }
 line.zero {
@@ -48,6 +48,9 @@ line.zero {
 #contentGroup {
     transition: transform 0.05s linear;
 }
+/* #portsGroup {
+    visibility: visible;
+} */
 
 #tooltip {
     position: absolute;

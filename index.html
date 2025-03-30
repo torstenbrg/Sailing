@@ -11,25 +11,32 @@
 <body>
     <svg id="mainSvg">
         <g id="contentGroup">
-            <line id="lineTemplate" />
-            <rect id="rectTemplate" />
-            <path id="pathTemplate" d="" />
+            <g id="countryGroup" />
+            <g id="gridGroup" />
+            <g id="portGroup" />
+            <g id="windsGroup" />
         </g>
-        <g id="portGroup">
-            <circle id ="circTemplate" />
-        </g>
-        <g id="windsGroup">
-            <line id="arroTempalate"
-        </g>
+        <line id="lineTemplate"></line>
+        <rect id="rectTemplate"></rect>
+        <path id="pathTemplate" d=""></path>
+        <circle id="circTemplate"></circle>
+        <path id="arrowTemplate" d="M 10,10 l50,0 l-10,-5 m10,5 l-10,5 "></path>
     </svg>
     <div id="tooltip"></div>
     <div id="loader" class="loader">
         <div class="spinner"></div>
     </div>
+    <script src="./db.js"></script>
     <script src="./utils.js"></script>
+    <script src="./script.js"></script>
     <script src="./winds.js"></script>
     <script src="./paths/all_countries.js"></script>
     <script src="./readCountries.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            readAllCountries().then(() => showTheMap());
+        });
+    </script>
 </body>
 
 </html>

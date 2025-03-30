@@ -1,21 +1,35 @@
 const countryData = {};
 let countryNames = {};
-function loadAllCountries() {
-    let countries = allCountries.split('|')
-    let names = longNames.split('|');
+async function readAllCountries() {
+    const countries = allCountries.split('|');
+    const names = longNames.split('|');
     countryNames = Object.fromEntries(
         countries.map((country, key) => [country, names[key]])
     );
-    const fetchPromises = countries.map(country => {// Create an array of fetch promises
-        let url = `./paths/${country}.txt`;
-        return fetch(url)
-            .then(response => response.text())
-            .then(data => { countryData[country] = data; });
-    });
-    Promise.all(fetchPromises).then(() => { // Wait for all fetch requests to complete and the load main script
-        const script = document.createElement('script');
-        script.src = './script.js';
-        document.head.appendChild(script);
-    });
+    await Promise.all(countries.map(async country => {
+        const response = await fetch(`./paths/${country}.txt`);
+        countryData[country] = await response.text();
+    }));
 }
-loadAllCountries();
+
+
+// function readAllCountries() {
+//     const countries = allCountries.split('|');
+//     const names = longNames.split('|');
+//     let loadedCount = 0;
+//     countryNames = Object.fromEntries(
+//         countries.map((country, key) => [country, names[key]])
+//     );
+//     return new Promise((resolve) => {
+//         countries.forEach(country => {
+//             fetch(`./paths/${country}.txt`)
+//                 .then(response => response.text())
+//                 .then(data => {
+//                     countryData[country] = data;
+//                     if (++loadedCount === countries.length) {
+//                         resolve(); 
+//                     }
+//                 });
+//         });
+//     });
+// }
