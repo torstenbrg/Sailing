@@ -14,7 +14,6 @@ let isDragging = false;
 let isResizing = false;
 let isZooming = false;
 let scale = 1
-//let animationFrameId = null;
 let coordsNW = { x: 0, y: 0 }, coordsSE = { x: 0, y: 0 }
 let grid = { w: 0, h: 0 };
 let fx = 0, fy = 0;
@@ -46,7 +45,7 @@ function createLine(x1, y1, x2, y2) {
 }
 function updatePan() {
     portGroup.querySelectorAll('circle').forEach(circle => {
-        let f = (scale > 3) ? 4 / scale : 1 / scale
+        let f = (scale > 3) ? 4 / scale : 2 / scale
         circle.setAttribute("r", f);
     });
     group.setAttribute('transform', `translate(${panX} ${panY}) scale(${scale})`);
@@ -60,19 +59,18 @@ function centerGrid() {
     updatePan();
 }
 portGroup.addEventListener('click', function (e) {
-    const portElement = e.target.closest('circle.port');
+    const portElement = e.target //.closest('circle.port');
     if (portElement) {
         const name = portElement.getAttribute('name');
         const url = 'https://' + portElement.getAttribute('website');
         if (url) {
-            console.log(`Port clicked: ${url}`)
+            console.log(`Port clicked: ${name} ${url}`)
             // e.preventDefault;
             // window.open(url, '_blank', 'noopener,noreferrer');
         }
     }
 });
 svg.addEventListener('wheel', e => {
-    //e.preventDefault();
     const mouseX = e.clientX;
     const mouseY = e.clientY;
     const zoomFactor = e.deltaY < 0 ? 1.05 : 0.95;
@@ -102,7 +100,6 @@ svg.addEventListener('mousemove', e => {
         const x = (e.clientX - panX) / scale;
         const y = (e.clientY - panY) / scale;
         const element = document.elementFromPoint(e.clientX, e.clientY);
-        //let port = (element.classList.contains('port') ? '\n' + element.getAttribute('name') : '')
         let port = '', site = '';
         if (element.classList.contains('port')) {
             port = '\n' + element.getAttribute('name');
@@ -151,70 +148,19 @@ function prepareGrid() {
         grid = { w: coordsSE.x - coordsNW.x, h: coordsSE.y - coordsNW.y };
     }
 }
-function processSvgPath(mercPath, project) {
-    const coordRegex = /(-?\d+(?:\.\d+)?(?:[eE][+-]?\d+)?),(-?\d+(?:\.\d+)?(?:[eE][+-]?\d+)?)/g;
-    const xyPath = mercPath.replace(coordRegex, (match, lon, lat) => {
-        const { x, y } = project(parseFloat(lon), parseFloat(lat));
-        return `${x},${y}`;
-    });
-    return xyPath;
-}
-function loadContryPaths() {
-    const excluded = "antarctica".split("|");
-    const countryGroup = document.getElementById('countryGroup');
-    const pathT = document.getElementById('pathTemplate');
-    let countries = allCountries.split('|')
-        .filter(country => !excluded.includes(country))
-        .sort();
-    countries.forEach(country => {
-        let path = pathT.cloneNode();
-        countryGroup.appendChild(path);
-        const d = processSvgPath(countryData[country], project);
-        path.setAttribute('id', country)
-        path.setAttribute('d', d);
-    });
-}
-async function loadPorts() {
-    const response = await fetch('./ports.txt');
-    const text = await response.text();
-    const lines = text.split('\n');
-    return lines.map(line => {
-        const [name, longitude, latitude, website] = line.split(',');
-        return { name, longitude: parseFloat(longitude), latitude: parseFloat(latitude), website };
-    });
-}
-function createPortMarkers(ports) {
-    const circT = document.getElementById('circTemplate');
-    ports.forEach(port => {
-        const { x, y } = project(port.longitude, port.latitude);
-        if (isNaN(x) || isNaN(y)) {
-            console.log(`Invalid coordinates for port ${port.name}`, { x, y });
-            return;
-        }
-        const pc = circT.cloneNode();
-        portGroup.appendChild(pc);
-        pc.removeAttribute('id')
-        pc.setAttribute("cx", x);
-        pc.setAttribute("cy", y);
-        pc.setAttribute("r", "2");
-        pc.classList.add("port");
-        pc.setAttribute("name", port.name);
-        pc.setAttribute("website", port.website);
-    });
-}
 
 async function showTheMap() {
     loader.style.display = 'flex';
     void loader.offsetHeight; // Ensure DOM changes apply immediately
     await new Promise(requestAnimationFrame); // Wait for next frame
     svg.style.display = "none";
-    prepareGrid();
+    prepareGrid(); // sets scales for lat lon projections
+    await readAllCountryData();
     loadContryPaths();
     generateGrid();
-    const ports = await loadPorts();
-    createPortMarkers(ports);
-    centerGrid();
+    createPortMarkers();
     await loadWinds();
+    centerGrid();
     //showVariables();
     loader.style.display = 'none';
     svg.style.display = "block";

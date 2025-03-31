@@ -3,7 +3,7 @@ const arrowT = document.getElementById('arrowTemplate');
 
 async function loadWinds() {
     windData = await getWindData();
-    if (Object.keys(windData).length === 0) return console.log("Wind data loaded from database");
+    if (Object.keys(windData).length > 0) return console.log("Wind data loaded from database");
     await Promise.all(getCoordinates(45, 50, -20, - 10).map(async ([lat, lon]) => {
         const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&hourly=wind_speed_10m,wind_direction_10m&timezone=UTC&windspeed_unit=kn`;
         try {

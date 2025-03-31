@@ -1075,6 +1075,6 @@ New York,-74.02426384,40.68833333,www.panynj.gov
 Galveston,-94.81790342,29.30416667,www.portofgalveston.com
 Norfolk,-76.29252061,36.90194444,www.vaports.com
 Seattle,-122.3597173,47.60222222,www.portseattle.org
-Cape Town,18.4352768,-33.90916667,www.transnetnationalportsauthority.net
 Toronto,-79.38,43.61,
 Chicago,-87.6,41.88,
+Cape Town,18.4352768,-33.90916667,www.transnetnationalportsauthority.net

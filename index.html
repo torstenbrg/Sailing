@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <!-- https://torstenbrg.github.io/Sailing/ -->
-
 <head>
     <meta charset="UTF-8">
     <title>Welcome Sailor!</title>
@@ -19,8 +18,8 @@
         <line id="lineTemplate"></line>
         <rect id="rectTemplate"></rect>
         <path id="pathTemplate" d=""></path>
-        <circle id="circTemplate"></circle>
         <path id="arrowTemplate" d="M 10,10 l50,0 l-10,-5 m10,5 l-10,5 "></path>
+        <circle id="circTemplate"></circle>
     </svg>
     <div id="tooltip"></div>
     <div id="loader" class="loader">
@@ -30,12 +29,10 @@
     <script src="./utils.js"></script>
     <script src="./script.js"></script>
     <script src="./winds.js"></script>
-    <script src="./paths/all_countries.js"></script>
-    <script src="./readCountries.js"></script>
+    <script src="./ports.js"></script>
+    <script src="./countries.js"></script>
     <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            readAllCountries().then(() => showTheMap());
-        });
+        document.addEventListener("DOMContentLoaded", () => { showTheMap() });
     </script>
 </body>
 

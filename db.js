@@ -1,5 +1,8 @@
 let windData = {};
-let portData = {};
+let portData = {}; // dictionary (country, one line per port)
+let countryNames = {}; // dictionary (albania, Albania)
+let countryData = {}; // dictionary (country, geoCoord text)
+
 let db;
 const openRequest = indexedDB.open("DataDB", 1);
 openRequest.onsuccess = (event) => { 
@@ -25,22 +28,6 @@ function saveWindDataToDB(key, data) {
         request.onerror = (event) => reject(event.target.error);
     });
 }
-// function getWindData() {
-//     const transaction = db.transaction("winds", "readonly");
-//     const store = transaction.objectStore("winds");
-//     const request = store.getAll();
-//     request.onsuccess = (event) => {
-//         event.target.result.forEach(rec => {
-//             windData[rec.coords] = rec.data;
-//         });
-//         windData = result;
-//         resolve(result);
-//     }
-//     request.onerror = () => {
-//         console.warn("Failed to read wind data from DB");
-//         resolve({});       
-//     };
-// }
 function getWindData() {
     return new Promise((resolve) => {
         const result = {}; // Local object to avoid race conditions
